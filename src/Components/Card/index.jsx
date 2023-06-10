@@ -1,8 +1,8 @@
 import './index.css'
 
-const Card = ({ color }) => {
+const Card = () => {
   return (
-    <div className={`card card--${color}`}>
+    <div className='card'>
 
     </div>
   )
