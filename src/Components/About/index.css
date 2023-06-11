@@ -1,0 +1,14 @@
+.about {
+  font-weight: 100;
+  max-width: 768px;
+}
+
+.about__link {
+  color: var(--black);
+  text-underline-offset: 2px;
+}
+
+.about__mailto {
+  color: var(--blue);
+  text-underline-offset: 2px;
+}

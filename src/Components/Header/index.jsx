@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
 import { Blurhash } from 'react-blurhash'
-import Presentation from '../../Assets/Presentation.png'
+import Presentation from '../../Assets/Presentation.jpg'
 import 'react-lazy-load-image-component/src/effects/blur.css'
 import './index.css'
 
@@ -35,7 +35,7 @@ const Header = () => {
       <LazyLoadComponent>
         <figure className='presentation__container'>
           <Blurhash
-            hash='U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@'
+            hash='LbRV|Wjs~qt8xva#RPj?%LWDRPoc'
             className='presentation__blur' />
           <LazyLoadImage
             alt="Presentation: Hi, I'm Estefany Aguilar. Frontend Developer and UX Designer."
