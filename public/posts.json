@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Dibuja tu tablita de Sushi con CSS Grid",
+    "description": "Utiliza CSS Grid para dibujar una tabla de sushi.",
+    "technologies": "HTML · CSS",
+    "date": "March 2020",
+    "post_url": "https://platzi.com/blog/reto-dibujo-css/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "Sushi illustration",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 2,
+    "title": "Dibuja tu tablita de Sushi con CSS Grid",
+    "description": "Utiliza CSS Grid para dibujar una tabla de sushi.",
+    "technologies": "HTML · CSS",
+    "date": "March 2020",
+    "post_url": "https://platzi.com/blog/reto-dibujo-css/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "Sushi illustration",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 3,
+    "title": "Dibuja tu tablita de Sushi con CSS Grid",
+    "description": "Utiliza CSS Grid para dibujar una tabla de sushi.",
+    "technologies": "HTML · CSS",
+    "date": "March 2020",
+    "post_url": "https://platzi.com/blog/reto-dibujo-css/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "Sushi illustration",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  }
+]
