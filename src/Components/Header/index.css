@@ -9,10 +9,9 @@
 }
 
 .presentation {
-  width: 50vw;
-  @media (max-width: 780px) {
-    width: 100vw;
-  }
+  max-width: 1024px;
+  width: 100%;
+  margin-top: 32px;
 }
 
 .presentation__image {
