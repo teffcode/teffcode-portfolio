@@ -9,6 +9,7 @@ import NotFound from '../../Components/NotFound'
 import PostsContainer from '../../Components/PostsContainer'
 import CoursesContainer from '../../Components/CoursesContainer'
 import QuizzesContainer from '../../Components/QuizzesContainer'
+import Loading from '../../Components/Loading'
 import './index.css'
 
 const AppRoutes = () => {

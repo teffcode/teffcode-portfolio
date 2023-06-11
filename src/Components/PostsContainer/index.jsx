@@ -2,11 +2,13 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
 import { Blurhash } from 'react-blurhash'
+import Loading from '../Loading'
 import 'react-lazy-load-image-component/src/effects/blur.css'
 import './index.css'
 
 const PostsContainer = () => {
   const [posts, setPosts] = useState()
+  const [loading, setLoading] = useState(true)
   const [postLoaded, setPostLoaded] = useState([])
 
   const handlePostLoad = (index) => {
@@ -23,6 +25,7 @@ const PostsContainer = () => {
         const response = await fetch('/posts.json')
         const data = await response.json()
         setPosts(data)
+        setLoading(false)
       } catch (error) {
         console.error('Error:', error)
       }
@@ -36,6 +39,7 @@ const PostsContainer = () => {
       <p className='posts__title'>In this section, you will find tutorials in Spanish that I have created specifically for you to practice HTML, CSS, and JavaScript.</p>
       <div className='posts__container'>
         {
+          loading ? <Loading /> :
           posts?.map((post, index) => (
             <Link to={post.post_url} target="_blank" key={post.id} className='post__link'>
               <LazyLoadComponent>

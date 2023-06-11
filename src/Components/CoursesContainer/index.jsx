@@ -2,11 +2,13 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
 import { Blurhash } from 'react-blurhash'
+import Loading from '../Loading'
 import 'react-lazy-load-image-component/src/effects/blur.css'
 import './index.css'
 
 const CoursesContainer = () => {
   const [courses, setCourses] = useState()
+  const [loading, setLoading] = useState(true)
   const [courseLoaded, setCourseLoaded] = useState([])
 
   const handleCourseLoad = (index) => {
@@ -23,6 +25,7 @@ const CoursesContainer = () => {
         const response = await fetch('/courses.json')
         const data = await response.json()
         setCourses(data)
+        setLoading(false)
       } catch (error) {
         console.error('Error:', error)
       }
@@ -36,6 +39,7 @@ const CoursesContainer = () => {
       <p className='courses__title'>In this section, you will find courses in Spanish that I have created with Platzi to help you become an expert in Frontend technologies.</p>
       <div className='courses__container'>
         {
+          loading ? <Loading /> :
           courses?.map((course, index) => (
             <Link to={course.course_url} target="_blank" key={course.id} className='course__link'>
               <LazyLoadComponent>
