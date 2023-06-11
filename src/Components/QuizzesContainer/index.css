@@ -1,9 +1,60 @@
-.quizzes-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-template-rows: repeat(2, 300px);
-    gap: 32px;
-    max-width: 1024px;
+.quizzes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quizzes__title {
+  font-weight: 100;
+  text-align: center;
+  width: 50%;
+  @media (max-width: 780px) {
     width: 100%;
-    margin-top: 32px;
   }
+}
+
+.quizzes__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  max-width: 1024px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.quiz__container {
+  padding: 16px 24px;
+  box-sizing: border-box;
+  border: 1px solid var(--grey);
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.quiz__link {
+  text-decoration: none;
+}
+
+.quiz__info {
+  color: var(--black);
+  margin: 6px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz__info span:first-child {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.quiz__info span:last-child {
+  font-size: 16px;
+}
+
+.quiz__date {
+  text-align: right;
+  font-size: 12px;
+  margin: 0;
+  font-weight: 100;
+  color: var(--black);
+}

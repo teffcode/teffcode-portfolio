@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Spread operator",
+    "technologies": "JavaScript",
+    "date": "March 2020",
+    "quiz_url": "https://platzi.com/blog/reto-dibujo-css/"
+  },
+  {
+    "id": 2,
+    "title": "Spread operator",
+    "technologies": "JavaScript",
+    "date": "March 2020",
+    "quiz_url": "https://platzi.com/blog/reto-dibujo-css/"
+  },
+  {
+    "id": 3,
+    "title": "Spread operator",
+    "technologies": "JavaScript",
+    "date": "March 2020",
+    "quiz_url": "https://platzi.com/blog/reto-dibujo-css/"
+  }
+]
