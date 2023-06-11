@@ -9,14 +9,41 @@
   }
 }
 
-.presentation {
+.presentation__container {
   max-width: 1024px;
-  width: 100%;
+  width: 100% !important;
   margin: 0;
+  position: relative;
+  aspect-ratio: 2.746;
 }
 
-.presentation__image {
+.presentation__blur {
+  position: absolute !important;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: 2.746;
+}
+
+.presentation__lazy-load {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  object-position: center center;
   width: 100%;
+}
+
+.non-visible {
+  opacity: 0;
+}
+
+.visible {
+  animation: visible 300ms forwards;
+}
+
+@keyframes visible {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .contact-me {
