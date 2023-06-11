@@ -33,12 +33,12 @@ const PostsContainer = () => {
 
   return (
     <div className='posts'>
-      <p className='posts__title'>In this section, you will find tutorials in Spanish to practice skills in HTML, CSS, and JavaScript.</p>
+      <p className='posts__title'>In this section, you will find tutorials in Spanish that I have created specifically for you to practice HTML, CSS, and JavaScript.</p>
       <div className='posts__container'>
         {
           posts?.map((post, index) => (
-            <Link to={post.post_url} target="_blank" className='post__link'>
-              <LazyLoadComponent key={post.id}>
+            <Link to={post.post_url} target="_blank" key={post.id} className='post__link'>
+              <LazyLoadComponent>
                 <div className='post__container'>
                   <Blurhash
                     hash={post.hash}
