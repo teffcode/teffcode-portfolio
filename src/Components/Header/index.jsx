@@ -22,10 +22,19 @@ const Header = () => {
       <nav className='navbar'>
         <div className='routing'>
           <NavLink to='/' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
-            UX Portfolio
+            Home
           </NavLink>
-          <NavLink to='/development/blog' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
-            Development
+          <NavLink to='/ux' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
+            UX
+          </NavLink>
+          <NavLink to='/blog' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
+            Blog
+          </NavLink>
+          <NavLink to='/courses' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
+            Courses
+          </NavLink>
+          <NavLink to='/quizzes' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
+            Quizzes
           </NavLink>
           <NavLink to='/about' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
             About
