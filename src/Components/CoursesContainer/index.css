@@ -1,0 +1,9 @@
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: repeat(2, 300px);
+    gap: 32px;
+    max-width: 1024px;
+    width: 100%;
+    margin-top: 32px;
+  }

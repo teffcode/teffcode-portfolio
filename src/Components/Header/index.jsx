@@ -10,7 +10,7 @@ const Header = () => {
           <NavLink to='/' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
             UX Portfolio
           </NavLink>
-          <NavLink to='/development' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
+          <NavLink to='/development/blog' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>
             Development
           </NavLink>
           <NavLink to='/about' className={({ isActive }) => isActive ? 'routing__label--active' : 'routing__label'}>

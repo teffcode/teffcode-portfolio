@@ -1,0 +1,10 @@
+.development {
+  margin: 24px 0;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.development .routing {
+  border: 1px solid var(--grey);
+  padding: 16px;
+}
