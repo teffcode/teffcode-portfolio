@@ -8,6 +8,15 @@
 }
 
 .courses__title {
+  color: var(--black);
+  text-align: center;
+  margin: 0;
+  @media (max-width: 780px) {
+    font-size: 24px;
+  }
+}
+
+.courses__subtitle {
   font-weight: 100;
   text-align: center;
   width: 50%;
@@ -23,6 +32,9 @@
   max-width: 1024px;
   width: 100%;
   margin-top: 32px;
+  @media (max-width: 780px) {
+    margin-top: 24px;
+  }
 }
 
 .course__container {

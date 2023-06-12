@@ -8,6 +8,15 @@
 }
 
 .ux__title {
+  color: var(--black);
+  text-align: center;
+  margin: 0;
+  @media (max-width: 780px) {
+    font-size: 24px;
+  }
+}
+
+.ux__subtitle {
   font-weight: 100;
   text-align: center;
   width: 50%;
@@ -23,5 +32,8 @@
   gap: 32px;
   max-width: 1024px;
   width: 100%;
-  margin: 24px 0;
+  margin-top: 32px;
+  @media (max-width: 780px) {
+    margin-top: 24px;
+  }
 }

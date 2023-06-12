@@ -24,7 +24,8 @@ const QuizzesContainer = () => {
 
   return (
     <div className='quizzes'>
-      <p className='quizzes__title'>In this section, you will find quizzes in English and Spanish that I have created for you to practice important concepts of HTML, CSS, and JavaScript.</p>
+      <h1 className='quizzes__title'>Quizzes</h1>
+      <p className='quizzes__subtitle'>In this section, you will find quizzes in English and Spanish that I have created for you to practice important concepts of HTML, CSS, and JavaScript.</p>
       <div className='quizzes__container'>
         {
           loading ? <Loading /> :

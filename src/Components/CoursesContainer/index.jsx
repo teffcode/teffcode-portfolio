@@ -36,7 +36,8 @@ const CoursesContainer = () => {
 
   return (
     <div className='courses'>
-      <p className='courses__title'>In this section, you will find courses in Spanish that I have created with Platzi to help you become an expert in Frontend technologies.</p>
+      <h1 className='courses__title'>Courses</h1>
+      <p className='courses__subtitle'>In this section, you will find courses in Spanish that I have created with Platzi to help you become an expert in Frontend technologies.</p>
       <div className='courses__container'>
         {
           loading ? <Loading /> :

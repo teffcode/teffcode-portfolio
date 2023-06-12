@@ -36,7 +36,8 @@ const PostsContainer = () => {
 
   return (
     <div className='posts'>
-      <p className='posts__title'>In this section, you will find tutorials in Spanish that I have created specifically for you to practice HTML, CSS, and JavaScript.</p>
+      <h1 className='posts__title'>Blog · Tutorials</h1>
+      <p className='posts__subtitle'>In this section, you will find tutorials in Spanish that I have created specifically for you to practice HTML, CSS, and JavaScript. <br /> <br /> I have also written on <a href='https://medium.com/@teffcode' target='_blank' className='posts__link'>Medium</a>, in case you want to take a look.</p>
       <div className='posts__container'>
         {
           loading ? <Loading /> :
