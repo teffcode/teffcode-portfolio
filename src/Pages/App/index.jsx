@@ -2,6 +2,7 @@ import { useRoutes, BrowserRouter } from 'react-router-dom'
 import { SiteProvider } from '../../Context'
 import Header from '../../Components/Header'
 import UxContainer from '../../Components/UxContainer'
+import Home from '../../Components/Home'
 import About from '../../Components/About'
 import Footer from '../../Components/Footer'
 import NotFound from '../../Components/NotFound'
@@ -12,7 +13,7 @@ import './index.css'
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path: '/', element: <UxContainer /> }, // TODO: Create Home page.
+    { path: '/', element: <Home /> },
     { path: '/ux', element: <UxContainer/> },
     { path: '/blog', element: <PostsContainer/> },
     { path: '/courses', element: <CoursesContainer/> },
