@@ -59,8 +59,8 @@ const PostsContainer = () => {
                 </div>
               </LazyLoadComponent>
               <p className='post__general-info'>
-                <span>{post.date}</span>
                 <span>{post.technologies}</span>
+                <span>{post.date}</span>
               </p>
               <p className='post__description'>
                 <span>{post.title}</span>
