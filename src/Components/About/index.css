@@ -1,6 +1,7 @@
 .about {
   font-weight: 100;
   max-width: 768px;
+  margin: 40px 0;
 }
 
 .about__link {

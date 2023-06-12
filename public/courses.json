@@ -1,32 +1,114 @@
 [
   {
     "id": 1,
-    "title": "Curso de Diseño Web con CSS Grid y Flexbox",
-    "platform": "Platzi",
-    "date": "March 2020",
-    "course_url": "https://platzi.com/blog/reto-dibujo-css/",
+    "title": "Curso de Creación de Páginas Web con ChatGPT",
+    "course_url": "https://platzi.com/cursos/web-chatgpt/",
     "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
-    "alt_description": "Sushi illustration",
+    "alt_description": "",
     "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
   },
   {
     "id": 2,
-    "title": "Curso de Diseño Web con CSS Grid y Flexbox",
-    "platform": "Platzi",
-    "date": "March 2020",
-    "course_url": "https://platzi.com/blog/reto-dibujo-css/",
+    "title": "Prueba Técnica: E-commerce Profesional con React.js",
+    "course_url": "https://platzi.com/cursos/laboratorio-react/",
     "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
-    "alt_description": "Sushi illustration",
+    "alt_description": "",
     "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
   },
   {
     "id": 3,
-    "title": "Curso de Diseño Web con CSS Grid y Flexbox",
-    "platform": "Platzi",
-    "date": "March 2020",
-    "course_url": "https://platzi.com/blog/reto-dibujo-css/",
+    "title": "Curso de React.js con Vite.js y TailwindCSS",
+    "course_url": "https://platzi.com/cursos/react-vite-tailwindcss/",
     "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
-    "alt_description": "Sushi illustration",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 4,
+    "title": "Curso de Storybook: Sistemas de Diseño con JavaScript",
+    "course_url": "https://platzi.com/cursos/storybook/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 5,
+    "title": "Curso Práctico de Sistemas de Diseño con Figma",
+    "course_url": "https://platzi.com/cursos/figma-sistemas-diseno/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 6,
+    "title": "Curso Gratis de Programación Básica",
+    "course_url": "https://platzi.com/cursos/programacion-basica/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 7,
+    "title": "Curso para Conseguir Trabajo como Frontend Developer",
+    "course_url": "https://platzi.com/cursos/conseguir-trabajo-frontend/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 8,
+    "title": "Curso Práctico de Frontend Developer",
+    "course_url": "https://platzi.com/cursos/frontend-developer-practico/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 9,
+    "title": "Curso de Frontend Developer",
+    "course_url": "https://platzi.com/cursos/frontend-developer/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 10,
+    "title": "Curso Práctico de Maquetación y Animaciones con CSS",
+    "course_url": "https://platzi.com/cursos/animaciones-css-practico/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 11,
+    "title": "Curso de Animaciones con CSS",
+    "course_url": "https://platzi.com/cursos/animaciones-css/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 12,
+    "title": "Curso de Transformaciones y Transiciones en CSS",
+    "course_url": "https://platzi.com/cursos/transformaciones-transiciones-css/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 13,
+    "title": "Curso de Diseño Web con CSS Grid y Flexbox",
+    "course_url": "https://platzi.com/cursos/flexbox-css-grid/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
+    "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
+  },
+  {
+    "id": 14,
+    "title": "Curso Profesional de CSS Grid Layout",
+    "course_url": "https://platzi.com/cursos/css-grid-layout/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "",
     "hash": "U45E]X8^Dh?cV?jYbIkD00?w-;8^t8azaej@"
   }
 ]
