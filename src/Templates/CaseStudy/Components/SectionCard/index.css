@@ -1,0 +1,16 @@
+.section-card {
+  background-color: var(--blue);
+  margin-bottom: 24px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.section-card__title {
+  font-weight: 300;
+  font-size: 24px;
+  @media (max-width: 780px) {
+    font-size: 16px;
+  }
+}

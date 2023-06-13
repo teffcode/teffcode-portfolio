@@ -1,6 +1,12 @@
 .case-study {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.case-study__section {
+  display: flex;
+  flex-direction: column;
   max-width: 1024px;
   width: 100%;
 }
