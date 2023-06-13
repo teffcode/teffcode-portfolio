@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Card from '../Card'
 import './index.css'
 
-const Home = () => {
+const UxContainer = () => {
   return (
     <div className='ux'>
       <h1 className='ux__title'>UX · Case studies</h1>
@@ -16,4 +16,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default UxContainer
