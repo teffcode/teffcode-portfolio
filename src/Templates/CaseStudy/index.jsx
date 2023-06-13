@@ -8,6 +8,7 @@ const CaseStudy = ({
   mainTitle,
   overviewTitle,
   empathizingTitle,
+  empathizingItems,
   empathizingUserResearchSummaryTitle,
   empathizingUserResearchPainPointsTitle,
   empathizingUserPersonaTitle,
@@ -19,7 +20,7 @@ const CaseStudy = ({
       <div className='case-study__section'>
         <SectionTitle text={overviewTitle} />
       </div>
-      <SectionCard text={empathizingTitle} />
+      <SectionCard text={empathizingTitle} items={empathizingItems} />
       <div className='case-study__section'>
         <SectionTitle text={empathizingUserResearchSummaryTitle} />
         <Divider />

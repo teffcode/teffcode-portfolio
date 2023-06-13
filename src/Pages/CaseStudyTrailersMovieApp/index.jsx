@@ -32,6 +32,7 @@ const CaseStudyTrailersMovieApp = () => {
             mainTitle={case_study.main_title}
             overviewTitle={case_study.overview.title}
             empathizingTitle={case_study.empathizing.title}
+            empathizingItems={case_study.empathizing.items}
             empathizingUserResearchSummaryTitle={case_study.empathizing.user_research_summary.title}
             empathizingUserResearchPainPointsTitle={case_study.empathizing.user_research_pain_points.title}
             empathizingUserPersonaTitle={case_study.empathizing.user_persona.title}
