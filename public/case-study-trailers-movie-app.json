@@ -1,6 +1,25 @@
 [
   {
     "id": 1,
-    "main_title": "Trailer's Movie App"
+    "main_title": "Trailer's Movie App",
+    "overview": {
+      "title": "Project overview"
+    },
+    "empathizing": {
+      "title": "Understanding the user",
+      "items": ["User research", "Personas", "Problem statements", "User journey maps"],
+      "user_research_summary": {
+        "title": "User research: summary"
+      },
+      "user_research_pain_points": {
+        "title": "User research: pain points"
+      },
+      "user_persona": {
+        "title": "Persona: Joseph"
+      },
+      "user_journey": {
+        "title": "User journey map"
+      }
+    }
   }
 ]
