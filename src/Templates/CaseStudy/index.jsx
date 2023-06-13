@@ -9,6 +9,7 @@ const CaseStudy = ({
   mainTitle,
   overviewTitle,
   overviewMain,
+  overviewGeneral,
   // Empathizing
   empathizingTitle,
   empathizingItems,
@@ -48,6 +49,7 @@ const CaseStudy = ({
               overviewMain?.content?.map((content, index) => {
                 return (
                   <FilledCard
+                    key={index}
                     title={content.title}
                     description={content.description}
                     position={content.position}
@@ -61,6 +63,23 @@ const CaseStudy = ({
           <figure>
             <img src={overviewMain.image_url} alt={overviewMain.image_alt} />
           </figure>
+        </div>
+        <Divider />
+        <div className='overview__general-section'>
+          {
+            overviewGeneral?.map((content, index) => {
+              return (
+                <FilledCard
+                  key={index}
+                  title={content.title}
+                  description={content.description}
+                  position={content.position}
+                  color={content.color}>
+                  {content.icon_name}
+                </FilledCard>
+              )
+            })
+          }
         </div>
       </div>
       <SectionCard text={empathizingTitle} items={empathizingItems} />

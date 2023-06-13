@@ -7,14 +7,14 @@
       "main": {
         "content": [
           {
-            "title": "The product",
+            "title": "The product:",
             "description": "The Trailer Movie App allows users to discover available movies near their location, providing access to movie trailers with closed captions and the ability to reserve and purchase tickets.",
             "icon_name": "A",
             "position": "horizontal",
             "color": "blue"
           },
           {
-            "title": "Project duration",
+            "title": "Project duration:",
             "description": "December 2022 to May 2023.",
             "icon_name": "A",
             "position": "horizontal",
@@ -25,7 +25,34 @@
         "image_alt": ""
       },
       "general": [
-
+        {
+          "title": "The problem:",
+          "description": "Foreign and new individuals in the city are not proficient in the local language and struggle to understand or preview the content of movies before purchasing tickets.",
+          "icon_name": "A",
+          "position": "vertical",
+          "color": "blue"
+        },
+        {
+          "title": "The goal:",
+          "description": "Develop a multilingual movie preview app that provides plot summaries, trailers, and subtitles in various languages, enabling foreign individuals to make informed decisions before purchasing movie tickets.",
+          "icon_name": "A",
+          "position": "vertical",
+          "color": "blue"
+        },
+        {
+          "title": "My role:",
+          "description": "My role was that of a UX Designer responsible for designing the user interface for displaying nearby theaters, movie details, date selection, seat selection, and payment.",
+          "icon_name": "A",
+          "position": "vertical",
+          "color": "blue"
+        },
+        {
+          "title": "Responsibilities:",
+          "description": "Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.",
+          "icon_name": "A",
+          "position": "vertical",
+          "color": "blue"
+        }
       ]
     },
     "empathizing": {
