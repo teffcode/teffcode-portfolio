@@ -1,7 +1,6 @@
 import './index.css'
 
 const SectionCard = ({ text, items }) => {
-  console.log('ITEMS: ', items)
   return (
     <div className='section-card'>
       <h2 className='section-card__title'>
@@ -9,7 +8,7 @@ const SectionCard = ({ text, items }) => {
       </h2>
       <ul className='section-card__items'>
         {
-          items?.map(item => <li className='section-card__item'>{ item }</li>)
+          items?.map((item, index) => <li key={index} className='section-card__item'>{ item }</li>)
         }
       </ul>
     </div>

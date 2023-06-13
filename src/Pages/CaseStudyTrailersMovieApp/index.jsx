@@ -37,6 +37,23 @@ const CaseStudyTrailersMovieApp = () => {
             empathizingUserResearchPainPointsTitle={case_study.empathizing.user_research_pain_points.title}
             empathizingUserPersonaTitle={case_study.empathizing.user_persona.title}
             empathizingUserJourneyTitle={case_study.empathizing.user_journey.title}
+            designingTitle={case_study.designing.title}
+            designingItems={case_study.designing.items}
+            designingPaperWireframesTitle={case_study.designing.paper_wireframes.title}
+            designingDigitalWireframes={case_study.designing.digital_wireframes}
+            designingLowFidelityPrototypeTitle={case_study.designing.low_fidelity_prototype.title}
+            designingUsabilityStudyFindingsTitle={case_study.designing.usability_study_findings.title}
+            redesigningTitle={case_study.redesigning.title}
+            redesigningItems={case_study.redesigning.items}
+            redesigningMockups={case_study.redesigning.mockups}
+            redesigningKeyMockupsTitle={case_study.redesigning.key_mockups.title}
+            redesigningHighFidelityPrototypeTitle={case_study.redesigning.high_fidelity_prototype.title}
+            redesigningAccessibilityConsiderationsTitle={case_study.redesigning.accessibility_considerations.title}
+            goingForwardTitle={case_study.going_forward.title}
+            goingForwardItems={case_study.going_forward.items}
+            goingForwardTakeawaysTitle={case_study.going_forward.takeaways.title}
+            goingForwardNextStepsTitle={case_study.going_forward.next_steps.title}
+            goingForwardTitleLetsConnect={case_study.going_forward.lets_connect.title}
           />
         ))
       }

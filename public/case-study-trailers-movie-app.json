@@ -20,6 +20,61 @@
       "user_journey": {
         "title": "User journey map"
       }
+    },
+    "designing": {
+      "title": "Starting the design",
+      "items": ["Paper wireframes", "Digital wireframes", "Low-fidelity prototype", "Usability studies"],
+      "paper_wireframes": {
+        "title": "Paper wireframes"
+      },
+      "digital_wireframes": [
+        {
+          "title": "Digital wireframes"
+        },
+        {
+          "title": "Digital wireframes"
+        }
+      ],
+      "low_fidelity_prototype": {
+        "title": "Low-fidelity prototype"
+      },
+      "usability_study_findings": {
+        "title": "Usability study: findings"
+      }
+    },
+    "redesigning": {
+      "title": "Refining the design",
+      "items": ["Mockups", "High-fidelity prototype", "Accessibility"],
+      "mockups": [
+        {
+          "title": "Mockups"
+        },
+        {
+          "title": "Mockups"
+        }
+      ],
+      "key_mockups": {
+        "title": "Key mockups"
+      },
+      "high_fidelity_prototype": {
+        "title": "High-fidelity prototype"
+      },
+      "accessibility_considerations": {
+        "title": "Accessibility considerations"
+      }
+    },
+    "going_forward": {
+      "title": "Going forward",
+      "items": ["Takeaways", "Next steps"],
+      "takeaways": {
+        "title": "Takeaways"
+      },
+      "next_steps": {
+        "title": "Next steps"
+      },
+      "lets_connect": {
+        "title": "Let’s connect!"
+      }
     }
   }
 ]
