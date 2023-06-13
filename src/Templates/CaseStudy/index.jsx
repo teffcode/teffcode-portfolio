@@ -2,29 +2,35 @@ import './index.css'
 import MainTitle from './Components/MainTitle'
 import SectionCard from './Components/SectionCard'
 import SectionTitle from './Components/SectionTitle'
+import FilledCard from './Components/FilledCard'
 import Divider from './Components/Divider'
 
 const CaseStudy = ({
   mainTitle,
   overviewTitle,
+  overviewMain,
+  // Empathizing
   empathizingTitle,
   empathizingItems,
   empathizingUserResearchSummaryTitle,
   empathizingUserResearchPainPointsTitle,
   empathizingUserPersonaTitle,
   empathizingUserJourneyTitle,
+  // Designing
   designingTitle,
   designingItems,
   designingPaperWireframesTitle,
   designingDigitalWireframes,
   designingLowFidelityPrototypeTitle,
   designingUsabilityStudyFindingsTitle,
+  // Redesigning
   redesigningTitle,
   redesigningItems,
   redesigningMockups,
   redesigningKeyMockupsTitle,
   redesigningHighFidelityPrototypeTitle,
   redesigningAccessibilityConsiderationsTitle,
+  // Going Forward
   goingForwardTitle,
   goingForwardItems,
   goingForwardTakeawaysTitle,
@@ -36,6 +42,26 @@ const CaseStudy = ({
       <MainTitle text={mainTitle} />
       <div className='case-study__section'>
         <SectionTitle text={overviewTitle} />
+        <div className='overview__main-section'>
+          <div className='overview__main-section--left'>
+            {
+              overviewMain?.content?.map((content, index) => {
+                return (
+                  <FilledCard
+                    title={content.title}
+                    description={content.description}
+                    position={content.position}
+                    color={content.color}>
+                    {content.icon_name}
+                  </FilledCard>
+                )
+              })
+            }
+          </div>
+          <figure>
+            <img src={overviewMain.image_url} alt={overviewMain.image_alt} />
+          </figure>
+        </div>
       </div>
       <SectionCard text={empathizingTitle} items={empathizingItems} />
       <div className='case-study__section'>

@@ -10,3 +10,18 @@
   max-width: 1024px;
   width: 100%;
 }
+
+.overview__main-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  @media (max-width: 780px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.overview__main-section--left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

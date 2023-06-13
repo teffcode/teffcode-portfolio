@@ -3,7 +3,30 @@
     "id": 1,
     "main_title": "Trailer's Movie App",
     "overview": {
-      "title": "Project overview"
+      "title": "Project overview",
+      "main": {
+        "content": [
+          {
+            "title": "The product",
+            "description": "The Trailer Movie App allows users to discover available movies near their location, providing access to movie trailers with closed captions and the ability to reserve and purchase tickets.",
+            "icon_name": "A",
+            "position": "horizontal",
+            "color": "blue"
+          },
+          {
+            "title": "Project duration",
+            "description": "December 2022 to May 2023.",
+            "icon_name": "A",
+            "position": "horizontal",
+            "color": "blue"
+          }
+        ],
+        "image_url": "",
+        "image_alt": ""
+      },
+      "general": [
+
+      ]
     },
     "empathizing": {
       "title": "Understanding the user",
