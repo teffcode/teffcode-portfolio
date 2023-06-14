@@ -37,16 +37,19 @@ const CaseStudyTrailersMovieApp = () => {
             empathizingTitle={case_study.empathizing.title}
             empathizingItems={case_study.empathizing.items}
             empathizingUserResearchSummaryTitle={case_study.empathizing.user_research_summary.title}
+            empathizingUserResearchSummaryDescription={case_study.empathizing.user_research_summary.description}
             empathizingUserResearchPainPointsTitle={case_study.empathizing.user_research_pain_points.title}
+            empathizingUserResearchPainPoints={case_study.empathizing.user_research_pain_points.pain_points}
             empathizingUserPersonaTitle={case_study.empathizing.user_persona.title}
-            empathizingUserJourneyTitle={case_study.empathizing.user_journey.title}
+            empathizingUserPersona={case_study.empathizing.user_persona.persona}
+            empathizingUserJourney={case_study.empathizing.user_journey}
             // Designing
             designingTitle={case_study.designing.title}
             designingItems={case_study.designing.items}
-            designingPaperWireframesTitle={case_study.designing.paper_wireframes.title}
+            designingPaperWireframes={case_study.designing.paper_wireframes}
             designingDigitalWireframes={case_study.designing.digital_wireframes}
-            designingLowFidelityPrototypeTitle={case_study.designing.low_fidelity_prototype.title}
-            designingUsabilityStudyFindingsTitle={case_study.designing.usability_study_findings.title}
+            designingLowFidelityPrototype={case_study.designing.low_fidelity_prototype}
+            designingUsabilityStudyFindings={case_study.designing.usability_study_findings}
             // Redesigning
             redesigningTitle={case_study.redesigning.title}
             redesigningItems={case_study.redesigning.items}

@@ -30,12 +30,57 @@
   }
 }
 
-.overview__general-section {
+.overview__general-section,
+.designing__findings-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
   @media (max-width: 780px) {
     gap: 24px;
     grid-template-columns: 1fr;
+  }
+}
+
+.empathizing__pain-points-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  @media (max-width: 1024px) {
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.empathizing__persona-section,
+.empathizing__journey-section,
+.designing__wireframes-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px;
+  @media (max-width: 768px) {
+    gap: 24px;
+    grid-template-columns: 1fr;
+  }
+}
+
+.designing__low-fi-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.designing__link {
+  color: var(--blue);
+  text-underline-offset: 2px;
+}
+
+.designing__description {
+  margin: 0;
+  font-weight: 100;
+  @media (max-width: 780px) {
+    font-size: 14px;
   }
 }
