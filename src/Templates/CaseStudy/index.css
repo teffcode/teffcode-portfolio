@@ -56,7 +56,8 @@
 
 .empathizing__persona-section,
 .empathizing__journey-section,
-.designing__wireframes-section {
+.designing__wireframes-section,
+.redesigning__mockups-section {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 32px;
@@ -66,13 +67,15 @@
   }
 }
 
-.designing__low-fi-section {
+.designing__low-fi-section,
+.redesigning__hi-fi-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.designing__link {
+.designing__link,
+.redesigning__link {
   color: var(--blue);
   text-underline-offset: 2px;
 }
@@ -82,5 +85,18 @@
   font-weight: 100;
   @media (max-width: 780px) {
     font-size: 14px;
+  }
+}
+
+.redesing__a11y-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  @media (max-width: 1024px) {
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
   }
 }

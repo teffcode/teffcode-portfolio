@@ -33,8 +33,8 @@ const CaseStudy = ({
   redesigningItems,
   redesigningMockups,
   redesigningKeyMockupsTitle,
-  redesigningHighFidelityPrototypeTitle,
-  redesigningAccessibilityConsiderationsTitle,
+  redesigningHighFidelityPrototype,
+  redesigningAccessibilityConsiderations,
   // Going Forward
   goingForwardTitle,
   goingForwardItems,
@@ -189,6 +189,12 @@ const CaseStudy = ({
             return (
               <>
                 <SectionTitle key={index} text={mockupInfo.title} />
+                <div className='redesigning__mockups-section'>
+                  {
+                    <EmptyCard
+                      description={mockupInfo.description} />
+                  }
+                </div>
                 <Divider />
               </>
             )
@@ -196,9 +202,33 @@ const CaseStudy = ({
         }
         <SectionTitle text={redesigningKeyMockupsTitle} />
         <Divider />
-        <SectionTitle text={redesigningHighFidelityPrototypeTitle} />
+        <SectionTitle text={redesigningHighFidelityPrototype.title} />
+        <div className='redesigning__hi-fi-section'>
+          <figure>
+            <img src={redesigningHighFidelityPrototype.image_url} alt="" />
+          </figure>
+          <a
+            href={redesigningHighFidelityPrototype.link.url}
+            target='_blank'
+            className='redesigning__link'>
+            {redesigningHighFidelityPrototype.link.title}
+          </a>
+        </div>
         <Divider />
-        <SectionTitle text={redesigningAccessibilityConsiderationsTitle} />
+        <SectionTitle text={redesigningAccessibilityConsiderations.title} />
+        <div className='redesing__a11y-section'>
+          {
+            redesigningAccessibilityConsiderations?.considerations.map((consideration, index) => {
+              return (
+                <FilledCard
+                  key={index}
+                  description={consideration.description}>
+                  {consideration.icon_name}
+                </FilledCard>
+              )
+            })
+          }
+        </div>
       </div>
       <SectionCard text={goingForwardTitle} items={goingForwardItems} />
       <div className='case-study__section'>

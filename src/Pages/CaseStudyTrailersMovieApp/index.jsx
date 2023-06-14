@@ -55,8 +55,8 @@ const CaseStudyTrailersMovieApp = () => {
             redesigningItems={case_study.redesigning.items}
             redesigningMockups={case_study.redesigning.mockups}
             redesigningKeyMockupsTitle={case_study.redesigning.key_mockups.title}
-            redesigningHighFidelityPrototypeTitle={case_study.redesigning.high_fidelity_prototype.title}
-            redesigningAccessibilityConsiderationsTitle={case_study.redesigning.accessibility_considerations.title}
+            redesigningHighFidelityPrototype={case_study.redesigning.high_fidelity_prototype}
+            redesigningAccessibilityConsiderations={case_study.redesigning.accessibility_considerations}
             // Going Forward
             goingForwardTitle={case_study.going_forward.title}
             goingForwardItems={case_study.going_forward.items}

@@ -156,20 +156,44 @@
       "items": ["Mockups", "High-fidelity prototype", "Accessibility"],
       "mockups": [
         {
-          "title": "Mockups"
+          "title": "Mockups",
+          "description": "In the initial designs, a screen was created for the description of the selected movie, but it was not clear. Therefore, I added less information and reorganized it for better categorization."
         },
         {
-          "title": "Mockups"
+          "title": "Mockups",
+          "description": "In the initial designs, the selection of dates and seats was not clear, so the information was better grouped and color-coded conventions were added for enhanced clarity."
         }
       ],
       "key_mockups": {
-        "title": "Key mockups"
+        "title": "Key mockups",
+        "images_url": [
+          ""
+        ]
       },
       "high_fidelity_prototype": {
-        "title": "High-fidelity prototype"
+        "title": "High-fidelity prototype",
+        "image_url": "",
+        "link": {
+          "title": "Link to high fidelity prototype in Figma",
+          "url": "https://www.figma.com/proto/KKiopXThrmfivtzSACUyl1/Mockup?type=design&node-id=102-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=102%3A2"
+        }
       },
       "accessibility_considerations": {
-        "title": "Accessibility considerations"
+        "title": "Accessibility considerations",
+        "considerations": [
+          {
+            "description": "The Closed Caption button allows users to view movie content in their preferred language.",
+            "icon_name": "A"
+          },
+          {
+            "description": "Icons are used to enhance navigation and make it easier for users to navigate the app.",
+            "icon_name": "A"
+          },
+          {
+            "description": "Contrast in different texts improves the readability of the text.",
+            "icon_name": "A"
+          }
+        ]
       }
     },
     "going_forward": {
@@ -182,7 +206,7 @@
         "title": "Next steps"
       },
       "lets_connect": {
-        "title": "Let’s connect!"
+        "title": "Let's connect!"
       }
     }
   }
