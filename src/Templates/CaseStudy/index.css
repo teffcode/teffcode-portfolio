@@ -31,7 +31,9 @@
 }
 
 .overview__general-section,
-.designing__findings-section {
+.designing__findings-section,
+.going-forward__takeaways-section,
+.going-forward__next-steps-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
@@ -80,7 +82,8 @@
   text-underline-offset: 2px;
 }
 
-.designing__description {
+.designing__description,
+.going-forward__description {
   margin: 0;
   font-weight: 100;
   @media (max-width: 780px) {
@@ -99,4 +102,9 @@
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
+}
+
+.going-forward__mailto {
+  color: var(--blue);
+  text-underline-offset: 2px;
 }

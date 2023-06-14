@@ -38,8 +38,8 @@ const CaseStudy = ({
   // Going Forward
   goingForwardTitle,
   goingForwardItems,
-  goingForwardTakeawaysTitle,
-  goingForwardNextStepsTitle,
+  goingForwardTakeaways,
+  goingForwardNextSteps,
   goingForwardTitleLetsConnect
 }) => {
   return (
@@ -232,11 +232,42 @@ const CaseStudy = ({
       </div>
       <SectionCard text={goingForwardTitle} items={goingForwardItems} />
       <div className='case-study__section'>
-        <SectionTitle text={goingForwardTakeawaysTitle} />
+        <SectionTitle text={goingForwardTakeaways.title} />
+        <div className='going-forward__takeaways-section'>
+          {
+            goingForwardTakeaways?.items.map((takeaways, index) => {
+              return (
+                <EmptyCard
+                  key={index}
+                  title={takeaways.title}
+                  description={takeaways.description}
+                  position={takeaways.position}>
+                  {takeaways.icon_name}
+                </EmptyCard>
+              )
+            })
+          }
+        </div>
         <Divider />
-        <SectionTitle text={goingForwardNextStepsTitle} />
+        <SectionTitle text={goingForwardNextSteps.title} />
+        <div className='going-forward__next-steps-section'>
+          {
+            goingForwardNextSteps?.items.map((next_step, index) => {
+              return (
+                <FilledCard
+                  key={index}
+                  description={next_step.description}>
+                  {next_step.icon_name}
+                </FilledCard>
+              )
+            })
+          }
+        </div>
         <Divider />
         <SectionTitle text={goingForwardTitleLetsConnect} />
+        <p className='going-forward__description'>
+          Thank you for checking out my work on the Trailer’s Movie app and feel free to <a href="mailto:teffcode@gmail.com" className='going-forward__mailto'><b>reach out</b></a> !
+        </p>
       </div>
     </div>
   )

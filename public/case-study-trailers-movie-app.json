@@ -200,10 +200,34 @@
       "title": "Going forward",
       "items": ["Takeaways", "Next steps"],
       "takeaways": {
-        "title": "Takeaways"
+        "title": "Takeaways",
+        "items": [
+          {
+            "title": "Impact:",
+            "description": "The app makes users feel like the Movie Trailer App really understands their needs. One quote from user feedback: 'The app made it so convenient and enjoyable to discover and watch movie trailers. I would definitely use this app as my go-to for finding movies to watch. It's a great way to have a fun and immersive movie experience.'",
+            "icon_name": "A",
+            "position": "vertical"
+          },
+          {
+            "title": "What I learned:",
+            "description": "While designing the Movie Trailer App, I discovered that the initial concepts are just the starting point. Usability studies and feedback from peers influenced every iteration of the app's design, ensuring it meets user needs and expectations.",
+            "icon_name": "A",
+            "position": "vertical"
+          }
+        ]
       },
       "next_steps": {
-        "title": "Next steps"
+        "title": "Next steps",
+        "items": [
+          {
+            "description": "Conduct another round of usability studies to validate whether the pain points users experienced have been effectively addressed.",
+            "icon_name": "A"
+          },
+          {
+            "description": "Conduct more user research to determine any new areas of need.",
+            "icon_name": "A"
+          }
+        ]
       },
       "lets_connect": {
         "title": "Let's connect!"

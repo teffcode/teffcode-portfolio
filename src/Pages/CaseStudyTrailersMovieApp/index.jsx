@@ -60,8 +60,8 @@ const CaseStudyTrailersMovieApp = () => {
             // Going Forward
             goingForwardTitle={case_study.going_forward.title}
             goingForwardItems={case_study.going_forward.items}
-            goingForwardTakeawaysTitle={case_study.going_forward.takeaways.title}
-            goingForwardNextStepsTitle={case_study.going_forward.next_steps.title}
+            goingForwardTakeaways={case_study.going_forward.takeaways}
+            goingForwardNextSteps={case_study.going_forward.next_steps}
             goingForwardTitleLetsConnect={case_study.going_forward.lets_connect.title}
           />
         ))
