@@ -21,7 +21,7 @@
             "color": "blue"
           }
         ],
-        "image_url": "",
+        "image_url": "https://i.ibb.co/jrKNBhq/main.png",
         "image_alt": ""
       },
       "general": [
@@ -96,13 +96,15 @@
         "persona": {
           "title": "Problem statement:",
           "description": "Joseph, a recent immigrant passionate about films and exploring his neighborhood, seeks accessible options to learn English, communicate, and socialize.",
-          "image_url": ""
+          "image_url": "https://i.ibb.co/KXdRv40/user-persona-joseph.png",
+          "alt_description": ""
         }
       },
       "user_journey": {
         "title": "User journey map",
         "description": "Joseph, a recent immigrant passionate about films and exploring his neighborhood, seeks accessible options to learn English, communicate, and socialize.",
-        "image_url": ""
+        "image_url": "https://i.ibb.co/drLYwTT/user-journey-map-joseph.png",
+        "alt_description": ""
       }
     },
     "designing": {

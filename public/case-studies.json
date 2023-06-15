@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Trailer's Movie App · Case study",
+    "certificate": "Google UX Certificate",
+    "case_study_url": "/ux/case-study-trailers-movie-app",
+    "image_url": "https://i.ibb.co/jrKNBhq/main.png",
+    "alt_description": "",
+    "hash": "LaMHMr_2?aRj%M4nj[t7~qD*IUoz",
+    "target": "_self"
+  },
+  {
+    "id": 2,
+    "title": "Again App · Case study",
+    "certificate": "Acamica UX Certificate",
+    "case_study_url": "https://www.behance.net/gallery/134750745/Again-UX-UI-Case-Study",
+    "image_url": "https://i.ibb.co/YBStfHC/again.png",
+    "alt_description": "",
+    "hash": "LSON5y_3~q4mMxx[t7M{%gITRj-;",
+    "target": "_blank"
+  }
+]

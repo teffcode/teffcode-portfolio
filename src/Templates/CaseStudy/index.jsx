@@ -1,10 +1,11 @@
-import './index.css'
 import MainTitle from './Components/MainTitle'
 import SectionCard from './Components/SectionCard'
 import SectionTitle from './Components/SectionTitle'
 import EmptyCard from './Components/EmptyCard'
 import FilledCard from './Components/FilledCard'
 import Divider from './Components/Divider'
+import BackTo from './Components/BackTo'
+import './index.css'
 
 const CaseStudy = ({
   mainTitle,
@@ -45,10 +46,13 @@ const CaseStudy = ({
   return (
     <div className='case-study'>
       <MainTitle text={mainTitle} />
+      <div className='back-to__header'>
+        <BackTo url='/ux' text='Back to case studies' />
+      </div>
       <div className='case-study__section'>
-        <SectionTitle text={overviewTitle} />
         <div className='overview__main-section'>
           <div className='overview__main-section--left'>
+            <SectionTitle text={overviewTitle} />
             {
               overviewMain?.content?.map((content, index) => {
                 return (
@@ -64,8 +68,8 @@ const CaseStudy = ({
               })
             }
           </div>
-          <figure>
-            <img src={overviewMain.image_url} alt={overviewMain.image_alt} />
+          <figure className='evidence__container'>
+            <img className='evidence__image' src={overviewMain.image_url} alt={overviewMain.image_alt} />
           </figure>
         </div>
         <Divider />
@@ -118,6 +122,9 @@ const CaseStudy = ({
               title={empathizingUserPersona.title}
               description={empathizingUserPersona.description} />
           }
+          <figure className='evidence__container'>
+            <img className='evidence__image' src={empathizingUserPersona.image_url} alt="" />
+          </figure>
         </div>
         <Divider />
         <SectionTitle text={empathizingUserJourney.title} />
@@ -126,6 +133,9 @@ const CaseStudy = ({
             <EmptyCard
               description={empathizingUserJourney.description} />
           }
+          <figure className='evidence__container'>
+            <img className='evidence__image' src={empathizingUserJourney.image_url} alt="" />
+          </figure>
         </div>
       </div>
       <SectionCard text={designingTitle} items={designingItems} />
@@ -268,6 +278,9 @@ const CaseStudy = ({
         <p className='going-forward__description'>
           Thank you for checking out my work on the Trailer’s Movie app and feel free to <a href="mailto:teffcode@gmail.com" className='going-forward__mailto'><b>reach out</b></a> !
         </p>
+        <div className='back-to__footer'>
+          <BackTo url='/ux' text='Back to case studies' />
+        </div>
       </div>
     </div>
   )

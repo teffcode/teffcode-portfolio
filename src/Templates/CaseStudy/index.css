@@ -15,8 +15,10 @@
 .overview__main-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  gap: 32px;
+  align-items: center;
   @media (max-width: 780px) {
+    gap: 24px;
     grid-template-columns: 1fr;
   }
 }
@@ -107,4 +109,25 @@
 .going-forward__mailto {
   color: var(--blue);
   text-underline-offset: 2px;
+}
+
+.evidence__container {
+  background-color: var(--light-grey);
+  margin: 0;
+  width: 100%;
+}
+
+.evidence__image {
+  display: block;
+  width: 100%;
+}
+
+.back-to__header {
+  text-align: center;
+  margin: 8px 0 32px;
+}
+
+.back-to__footer {
+  text-align: center;
+  margin: 32px 0 0;
 }
