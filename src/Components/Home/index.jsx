@@ -59,7 +59,6 @@ const Home = () => {
                     className={topicLoaded[index] ? 'topic__lazy-load visible' : 'topic__lazy-load non-visible'} />
                 </div>
               </LazyLoadComponent>
-              <p className='topic__info'>{topic.title}</p>
             </Link>
           ))
         }

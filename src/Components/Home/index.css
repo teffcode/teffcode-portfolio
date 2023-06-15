@@ -31,13 +31,9 @@
 }
 
 .topic__container {
-  border: 1px solid var(--grey);
   position: relative;
   width: 100%;
   height: 300px;
-  @media (max-width: 780px) {
-    height: 260px;
-  }
   overflow: hidden;
   cursor: pointer;
 }
