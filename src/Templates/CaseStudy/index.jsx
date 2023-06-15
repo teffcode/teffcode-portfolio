@@ -9,34 +9,10 @@ import './index.css'
 
 const CaseStudy = ({
   mainTitle,
-  overviewTitle,
-  overviewMain,
-  overviewGeneral,
-  // Empathizing
-  empathizingTitle,
-  empathizingItems,
-  empathizingUserResearchSummaryTitle,
-  empathizingUserResearchSummaryDescription,
-  empathizingUserResearchPainPointsTitle,
-  empathizingUserResearchPainPoints,
-  empathizingUserPersonaTitle,
-  empathizingUserPersona,
-  empathizingUserJourney,
-  // Designing
-  designingTitle,
-  designingItems,
-  designingPaperWireframes,
-  designingDigitalWireframes,
-  designingLowFidelityPrototype,
-  designingUsabilityStudyFindings,
-  // Redesigning
-  redesigningTitle,
-  redesigningItems,
-  redesigningMockups,
-  redesigningKeyMockupsTitle,
-  redesigningHighFidelityPrototype,
-  redesigningAccessibilityConsiderations,
-  // Going Forward
+  overview,
+  empathizing,
+  designing,
+  redesigning,
   goingForward
 }) => {
   return (
@@ -48,9 +24,9 @@ const CaseStudy = ({
       <div className='case-study__section'>
         <div className='overview__main-section'>
           <div className='overview__main-section--left'>
-            <SectionTitle text={overviewTitle} />
+            <SectionTitle text={overview.title} />
             {
-              overviewMain?.content?.map((content, index) => {
+              overview.main?.content?.map((content, index) => {
                 return (
                   <EmptyCard
                     key={index}
@@ -65,13 +41,13 @@ const CaseStudy = ({
             }
           </div>
           <figure className='evidence__container'>
-            <img className='evidence__image' src={overviewMain.image_url} alt={overviewMain.image_alt} />
+            <img className='evidence__image' src={overview.main.image_url} alt={overview.main.image_alt} />
           </figure>
         </div>
         <Divider />
         <div className='overview__general-section'>
           {
-            overviewGeneral?.map((content, index) => {
+            overview.general?.map((content, index) => {
               return (
                 <EmptyCard
                   key={index}
@@ -86,18 +62,18 @@ const CaseStudy = ({
           }
         </div>
       </div>
-      <SectionCard text={empathizingTitle} items={empathizingItems} />
+      <SectionCard text={empathizing.title} items={empathizing.items} />
       <div className='case-study__section'>
-        <SectionTitle text={empathizingUserResearchSummaryTitle} />
+        <SectionTitle text={empathizing.user_research_summary.title} />
         <FilledCard
-          description={empathizingUserResearchSummaryDescription}>
+          description={empathizing.user_research_summary.description}>
           A
         </FilledCard>
         <Divider />
-        <SectionTitle text={empathizingUserResearchPainPointsTitle} />
+        <SectionTitle text={empathizing.user_research_pain_points.title} />
         <div className='empathizing__pain-points-section'>
           {
-            empathizingUserResearchPainPoints?.map((pain_point, index) => {
+            empathizing.user_research_pain_points?.pain_points.map((pain_point, index) => {
               return (
                 <FilledCard
                   key={index}
@@ -111,41 +87,41 @@ const CaseStudy = ({
           }
         </div>
         <Divider />
-        <SectionTitle text={empathizingUserPersonaTitle} />
+        <SectionTitle text={empathizing.user_persona.title} />
         <div className='empathizing__persona-section'>
           {
             <EmptyCard
-              title={empathizingUserPersona.title}
-              description={empathizingUserPersona.description} />
+              title={empathizing.user_persona.title}
+              description={empathizing.user_persona.description} />
           }
           <figure className='evidence__container'>
-            <img className='evidence__image' src={empathizingUserPersona.image_url} alt="" />
+            <img className='evidence__image' src={empathizing.user_persona.image_url} alt="" />
           </figure>
         </div>
         <Divider />
-        <SectionTitle text={empathizingUserJourney.title} />
+        <SectionTitle text={empathizing.user_journey.title} />
         <div className='empathizing__journey-section'>
           {
             <EmptyCard
-              description={empathizingUserJourney.description} />
+              description={empathizing.user_journey.description} />
           }
           <figure className='evidence__container'>
-            <img className='evidence__image' src={empathizingUserJourney.image_url} alt="" />
+            <img className='evidence__image' src={empathizing.user_journey.image_url} alt="" />
           </figure>
         </div>
       </div>
-      <SectionCard text={designingTitle} items={designingItems} />
+      <SectionCard text={designing.title} items={designing.items} />
       <div className='case-study__section'>
-        <SectionTitle text={designingPaperWireframes.title} />
+        <SectionTitle text={designing.paper_wireframes.title} />
         <div className='designing__wireframes-section'>
           {
             <EmptyCard
-              description={designingPaperWireframes.description} />
+              description={designing.paper_wireframes.description} />
           }
         </div>
         <Divider />
         {
-          designingDigitalWireframes?.map((wireframeInfo, index) => {
+          designing.digital_wireframes?.map((wireframeInfo, index) => {
             return (
               <>
                 <SectionTitle key={index} text={wireframeInfo.title} />
@@ -160,24 +136,24 @@ const CaseStudy = ({
             )
           })
         }
-        <SectionTitle text={designingLowFidelityPrototype.title} />
+        <SectionTitle text={designing.low_fidelity_prototype.title} />
         <div className='designing__low-fi-section'>
           <figure>
-            <img src={designingLowFidelityPrototype.image_url} alt="" />
+            <img src={designing.low_fidelity_prototype.image_url} alt="" />
           </figure>
           <a
-            href={designingLowFidelityPrototype.link.url}
+            href={designing.low_fidelity_prototype.link.url}
             target='_blank'
             className='designing__link'>
-            {designingLowFidelityPrototype.link.title}
+            {designing.low_fidelity_prototype.link.title}
           </a>
         </div>
         <Divider />
-        <SectionTitle text={designingUsabilityStudyFindings.title} />
-        <p className='designing__description'>{designingUsabilityStudyFindings.description}</p>
+        <SectionTitle text={designing.usability_study_findings.title} />
+        <p className='designing__description'>{designing.usability_study_findings.description}</p>
         <div className='designing__findings-section'>
           {
-            designingUsabilityStudyFindings?.findings?.map((finfing, index) => {
+            designing.usability_study_findings?.findings?.map((finfing, index) => {
               return (
                 <FilledCard
                   key={index}
@@ -188,10 +164,10 @@ const CaseStudy = ({
           }
         </div>
       </div>
-      <SectionCard text={redesigningTitle} items={redesigningItems} />
+      <SectionCard text={redesigning.title} items={redesigning.items} />
       <div className='case-study__section'>
         {
-          redesigningMockups?.map((mockupInfo, index) => {
+          redesigning.mockups?.map((mockupInfo, index) => {
             return (
               <>
                 <SectionTitle key={index} text={mockupInfo.title} />
@@ -206,25 +182,25 @@ const CaseStudy = ({
             )
           })
         }
-        <SectionTitle text={redesigningKeyMockupsTitle} />
+        <SectionTitle text={redesigning.key_mockups.title} />
         <Divider />
-        <SectionTitle text={redesigningHighFidelityPrototype.title} />
+        <SectionTitle text={redesigning.high_fidelity_prototype.title} />
         <div className='redesigning__hi-fi-section'>
           <figure>
-            <img src={redesigningHighFidelityPrototype.image_url} alt="" />
+            <img src={redesigning.high_fidelity_prototype.image_url} alt="" />
           </figure>
           <a
-            href={redesigningHighFidelityPrototype.link.url}
+            href={redesigning.high_fidelity_prototype.link.url}
             target='_blank'
             className='redesigning__link'>
-            {redesigningHighFidelityPrototype.link.title}
+            {redesigning.high_fidelity_prototype.link.title}
           </a>
         </div>
         <Divider />
-        <SectionTitle text={redesigningAccessibilityConsiderations.title} />
+        <SectionTitle text={redesigning.accessibility_considerations.title} />
         <div className='redesing__a11y-section'>
           {
-            redesigningAccessibilityConsiderations?.considerations.map((consideration, index) => {
+            redesigning.accessibility_considerations?.considerations.map((consideration, index) => {
               return (
                 <FilledCard
                   key={index}

@@ -30,34 +30,10 @@ const CaseStudyTrailersMovieApp = () => {
           <CaseStudy
             key={index}
             mainTitle={case_study.main_title}
-            overviewTitle={case_study.overview.title}
-            overviewMain={case_study.overview.main}
-            overviewGeneral={case_study.overview.general}
-            // Empathizing
-            empathizingTitle={case_study.empathizing.title}
-            empathizingItems={case_study.empathizing.items}
-            empathizingUserResearchSummaryTitle={case_study.empathizing.user_research_summary.title}
-            empathizingUserResearchSummaryDescription={case_study.empathizing.user_research_summary.description}
-            empathizingUserResearchPainPointsTitle={case_study.empathizing.user_research_pain_points.title}
-            empathizingUserResearchPainPoints={case_study.empathizing.user_research_pain_points.pain_points}
-            empathizingUserPersonaTitle={case_study.empathizing.user_persona.title}
-            empathizingUserPersona={case_study.empathizing.user_persona.persona}
-            empathizingUserJourney={case_study.empathizing.user_journey}
-            // Designing
-            designingTitle={case_study.designing.title}
-            designingItems={case_study.designing.items}
-            designingPaperWireframes={case_study.designing.paper_wireframes}
-            designingDigitalWireframes={case_study.designing.digital_wireframes}
-            designingLowFidelityPrototype={case_study.designing.low_fidelity_prototype}
-            designingUsabilityStudyFindings={case_study.designing.usability_study_findings}
-            // Redesigning
-            redesigningTitle={case_study.redesigning.title}
-            redesigningItems={case_study.redesigning.items}
-            redesigningMockups={case_study.redesigning.mockups}
-            redesigningKeyMockupsTitle={case_study.redesigning.key_mockups.title}
-            redesigningHighFidelityPrototype={case_study.redesigning.high_fidelity_prototype}
-            redesigningAccessibilityConsiderations={case_study.redesigning.accessibility_considerations}
-            // Going Forward
+            overview={case_study.overview}
+            empathizing={case_study.empathizing}
+            designing={case_study.designing}
+            redesigning={case_study.redesigning}
             goingForward={case_study.going_forward}
           />
         ))
