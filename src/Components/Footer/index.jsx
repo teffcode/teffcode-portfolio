@@ -3,6 +3,7 @@ import GithubLogo from '../../Assets/Github.svg'
 import LinkedinLogo from '../../Assets/Linkedin.svg'
 import BehanceLogo from '../../Assets/Behance.svg'
 import DribbbleLogo from '../../Assets/Dribbble.svg'
+import MediumLogo from '../../Assets/Medium.svg'
 import './index.css'
 
 const Footer = () => {
@@ -23,6 +24,9 @@ const Footer = () => {
         </a>
         <a href="https://dribbble.com/teffcode" target="_blank" className='social-media__link'>
           <img src={DribbbleLogo} alt="Dribbble logo" className='social-media__icon' />
+        </a>
+        <a href="https://medium.com/@teffcode" target="_blank" className='social-media__link'>
+          <img src={MediumLogo} alt="Medium logo" className='social-media__icon' />
         </a>
       </div>
       <p className='footer__text'>© 2023. All Rights Reserved to Estefany Aguilar Restrepo.</p>
