@@ -58,11 +58,7 @@ const CaseStudyTrailersMovieApp = () => {
             redesigningHighFidelityPrototype={case_study.redesigning.high_fidelity_prototype}
             redesigningAccessibilityConsiderations={case_study.redesigning.accessibility_considerations}
             // Going Forward
-            goingForwardTitle={case_study.going_forward.title}
-            goingForwardItems={case_study.going_forward.items}
-            goingForwardTakeaways={case_study.going_forward.takeaways}
-            goingForwardNextSteps={case_study.going_forward.next_steps}
-            goingForwardTitleLetsConnect={case_study.going_forward.lets_connect.title}
+            goingForward={case_study.going_forward}
           />
         ))
       }

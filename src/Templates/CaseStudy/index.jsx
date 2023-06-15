@@ -37,11 +37,7 @@ const CaseStudy = ({
   redesigningHighFidelityPrototype,
   redesigningAccessibilityConsiderations,
   // Going Forward
-  goingForwardTitle,
-  goingForwardItems,
-  goingForwardTakeaways,
-  goingForwardNextSteps,
-  goingForwardTitleLetsConnect
+  goingForward
 }) => {
   return (
     <div className='case-study'>
@@ -240,12 +236,12 @@ const CaseStudy = ({
           }
         </div>
       </div>
-      <SectionCard text={goingForwardTitle} items={goingForwardItems} />
+      <SectionCard text={goingForward.title} items={goingForward.items} />
       <div className='case-study__section'>
-        <SectionTitle text={goingForwardTakeaways.title} />
+        <SectionTitle text={goingForward.takeaways.title} />
         <div className='going-forward__takeaways-section'>
           {
-            goingForwardTakeaways?.items.map((takeaways, index) => {
+            goingForward.takeaways?.items.map((takeaways, index) => {
               return (
                 <EmptyCard
                   key={index}
@@ -259,10 +255,10 @@ const CaseStudy = ({
           }
         </div>
         <Divider />
-        <SectionTitle text={goingForwardNextSteps.title} />
+        <SectionTitle text={goingForward.next_steps.title} />
         <div className='going-forward__next-steps-section'>
           {
-            goingForwardNextSteps?.items.map((next_step, index) => {
+            goingForward.next_steps?.items.map((next_step, index) => {
               return (
                 <FilledCard
                   key={index}
@@ -274,7 +270,7 @@ const CaseStudy = ({
           }
         </div>
         <Divider />
-        <SectionTitle text={goingForwardTitleLetsConnect} />
+        <SectionTitle text={goingForward.lets_connect.title} />
         <p className='going-forward__description'>
           Thank you for checking out my work on the Trailer’s Movie app and feel free to <a href="mailto:teffcode@gmail.com" className='going-forward__mailto'><b>reach out</b></a> !
         </p>
