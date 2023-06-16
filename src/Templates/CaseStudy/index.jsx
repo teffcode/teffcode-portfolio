@@ -41,7 +41,10 @@ const CaseStudy = ({
             }
           </div>
           <figure className='evidence__container'>
-            <img className='evidence__image' src={overview.main.image_url} alt={overview.main.image_alt} />
+            <img
+              className='evidence__image'
+              src={overview.main.image_url}
+              alt={overview.main.image_alt} />
           </figure>
         </div>
         <Divider />
@@ -67,7 +70,7 @@ const CaseStudy = ({
         <SectionTitle text={empathizing.user_research_summary.title} />
         <FilledCard
           description={empathizing.user_research_summary.description}>
-          A
+          {empathizing.user_research_summary.icon_name}
         </FilledCard>
         <Divider />
         <SectionTitle text={empathizing.user_research_pain_points.title} />
@@ -87,49 +90,67 @@ const CaseStudy = ({
           }
         </div>
         <Divider />
-        <SectionTitle text={empathizing.user_persona.title} />
         <div className='empathizing__persona-section'>
-          {
+          <div>
+            <SectionTitle text={empathizing.user_persona.title} />
             <EmptyCard
-              title={empathizing.user_persona.title}
-              description={empathizing.user_persona.description} />
-          }
+              title={empathizing.user_persona.persona.title}
+              description={empathizing.user_persona.persona.description} />
+          </div>
           <figure className='evidence__container'>
-            <img className='evidence__image' src={empathizing.user_persona.image_url} alt="" />
+            <img
+              className='evidence__image'
+              src={empathizing.user_persona.persona.image_url}
+              alt={empathizing.user_persona.persona.title} />
           </figure>
         </div>
         <Divider />
-        <SectionTitle text={empathizing.user_journey.title} />
         <div className='empathizing__journey-section'>
-          {
+          <div>
+            <SectionTitle text={empathizing.user_journey.title} />
             <EmptyCard
               description={empathizing.user_journey.description} />
-          }
+          </div>
           <figure className='evidence__container'>
-            <img className='evidence__image' src={empathizing.user_journey.image_url} alt="" />
+            <img
+              className='evidence__image'
+              src={empathizing.user_journey.image_url}
+              alt={empathizing.user_journey.title} />
           </figure>
         </div>
       </div>
       <SectionCard text={designing.title} items={designing.items} />
       <div className='case-study__section'>
-        <SectionTitle text={designing.paper_wireframes.title} />
         <div className='designing__wireframes-section'>
-          {
+          <div>
+            <SectionTitle text={designing.paper_wireframes.title} />
             <EmptyCard
               description={designing.paper_wireframes.description} />
-          }
+          </div>
+          <figure className='evidence__container'>
+            <img
+              className='evidence__image'
+              src={designing.paper_wireframes.image_url}
+              alt={designing.paper_wireframes.title} />
+          </figure>
         </div>
         <Divider />
         {
           designing.digital_wireframes?.map((wireframeInfo, index) => {
             return (
               <>
-                <SectionTitle key={index} text={wireframeInfo.title} />
-                <div className='designing__wireframes-section'>
-                  {
+                <div key={index} className='designing__wireframes-section'>
+                  <div>
+                    <SectionTitle key={index} text={wireframeInfo.title} />
                     <EmptyCard
                       description={wireframeInfo.description} />
-                  }
+                  </div>
+                  <figure className='evidence__container'>
+                    <img
+                      className='evidence__image'
+                      src={wireframeInfo.image_url}
+                      alt={wireframeInfo.title} />
+                  </figure>
                 </div>
                 <Divider />
               </>
@@ -138,8 +159,11 @@ const CaseStudy = ({
         }
         <SectionTitle text={designing.low_fidelity_prototype.title} />
         <div className='designing__low-fi-section'>
-          <figure>
-            <img src={designing.low_fidelity_prototype.image_url} alt="" />
+          <figure className='evidence__container'>
+            <img
+              className='evidence__image'
+              src={designing.low_fidelity_prototype.image_url}
+              alt={designing.low_fidelity_prototype.title} />
           </figure>
           <a
             href={designing.low_fidelity_prototype.link.url}
@@ -170,12 +194,18 @@ const CaseStudy = ({
           redesigning.mockups?.map((mockupInfo, index) => {
             return (
               <>
-                <SectionTitle key={index} text={mockupInfo.title} />
-                <div className='redesigning__mockups-section'>
-                  {
+                <div key={index} className='redesigning__mockups-section'>
+                  <div>
+                    <SectionTitle key={index} text={mockupInfo.title} />
                     <EmptyCard
                       description={mockupInfo.description} />
-                  }
+                  </div>
+                  <figure className='evidence__container'>
+                    <img
+                      className='evidence__image'
+                      src={mockupInfo.image_url}
+                      alt={mockupInfo.title} />
+                  </figure>
                 </div>
                 <Divider />
               </>
@@ -183,11 +213,28 @@ const CaseStudy = ({
           })
         }
         <SectionTitle text={redesigning.key_mockups.title} />
+        <div className='redesigning__key-mockups-section'>
+          {
+            redesigning.key_mockups?.images_url.map((image_url, index) => {
+              return (
+                <figure key={index} className='evidence__container'>
+                  <img
+                    className='evidence__image'
+                    src={image_url}
+                    alt={redesigning.key_mockups.title} />
+                </figure>
+              )
+            })
+          }
+        </div>
         <Divider />
         <SectionTitle text={redesigning.high_fidelity_prototype.title} />
         <div className='redesigning__hi-fi-section'>
-          <figure>
-            <img src={redesigning.high_fidelity_prototype.image_url} alt="" />
+          <figure className='evidence__container'>
+            <img
+              className='evidence__image'
+              src={redesigning.high_fidelity_prototype.image_url}
+              alt={redesigning.high_fidelity_prototype.title} />
           </figure>
           <a
             href={redesigning.high_fidelity_prototype.link.url}
