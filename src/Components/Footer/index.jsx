@@ -29,7 +29,14 @@ const Footer = () => {
           <img src={MediumLogo} alt="Medium logo" className='social-media__icon' />
         </a>
       </div>
-      <p className='footer__text'>© 2023. All Rights Reserved to Estefany Aguilar Restrepo.</p>
+      <p className='footer__text'>
+        <span>
+          If you enjoyed my work, you can treat me to a cup of coffee <a href="https://www.buymeacoffee.com/teffcode" className='footer__link'><b>here</b></a>.
+        </span>
+        <span>
+          © 2023. All Rights Reserved to Estefany Aguilar Restrepo.
+        </span>
+      </p>
     </div>
   )
 }
