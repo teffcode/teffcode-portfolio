@@ -1,0 +1,222 @@
+[
+  {
+    "id": 20,
+    "title": "¿Cuál es la mejor hora para despertar sin agotamiento?",
+    "description": "Calculo de los mejores posibles horarios para levantarnos",
+    "technologies": "HTML, CSS & JavaScript",
+    "date": "2022",
+    "post_url": "https://platzi.com/blog/a-que-hora-despertar/",
+    "image_url": "https://i.ibb.co/wsgjymg/Screen-Shot-2022-05-01-at-11-26-01-AM.png",
+    "alt_description": "",
+    "hash": "LAQm3lt7Y8t7EDfQ-xfQogfQWBfQ"
+  },
+  {
+    "id": 19,
+    "title": "Animaciones con TailwindCSS",
+    "description": "Creación de una aplicación de una casa inteligente con TailwindCSS",
+    "technologies": "TailwindCSS",
+    "date": "2022",
+    "post_url": "https://platzi.com/blog/animaciones-tailwindcss/",
+    "image_url": "https://i.ibb.co/2sfmr48/smart-house.png",
+    "alt_description": "",
+    "hash": "LbM@cRxHx]%N~qofM{Rj%NtRRPax"
+  },
+  {
+    "id": 18,
+    "title": "Crea la aplicación de una casa inteligente con TailwindCSS (parte 1)",
+    "description": "Creación de una aplicación de una casa inteligente con TailwindCSS",
+    "technologies": "TailwindCSS",
+    "date": "2022",
+    "post_url": "https://platzi.com/blog/casa-inteligente-tailwindcss/",
+    "image_url": "https://i.ibb.co/0BNSPDG/identifying-elements.png",
+    "alt_description": "",
+    "hash": "LMM%_.-;xa-;~qxbM|M{?d%gNFM{"
+  },
+  {
+    "id": 17,
+    "title": "Crea la página web de tu Curriculum Vitae (CV) con Figma y CSS",
+    "description": "Diseño con Figma y maquetación con CSS de nuestra página web con portafolio",
+    "technologies": "Figma & CSS",
+    "date": "2022",
+    "post_url": "https://platzi.com/blog/figma-css/",
+    "image_url": "https://i.ibb.co/q00XJmV/website.gif",
+    "alt_description": "",
+    "hash": "LoHgW0j[.RWC%Mj[Rjjt?^j[MdWB"
+  },
+  {
+    "id": 16,
+    "title": "¡Dibujos 3D con CSS! Construye una casa al estilo Minecraft",
+    "description": "Dibujo de una casa en 3D al estilo Minecraft con CSS usando la propiedad transform",
+    "technologies": "CSS",
+    "date": "2022",
+    "post_url": "https://platzi.com/blog/minecraft-css/",
+    "image_url": "https://i.ibb.co/0G7kgqX/Screen-Shot-2022-01-22-at-11-08-25-PM.png",
+    "alt_description": "",
+    "hash": "L#FHPAjdNbbJW3fis;fPNWaws.jY"
+  },
+  {
+    "id": 15,
+    "title": "¡Dibujos 3D con CSS! Entiende rotación y traslación (parte 1)",
+    "description": "Dibujo con CSS en 3D usando la propiedad transform",
+    "technologies": "CSS",
+    "date": "2022",
+    "post_url": "https://platzi.com/blog/dibujo-3d-css/",
+    "image_url": "https://i.ibb.co/LrhpGGp/illustration-1.png",
+    "alt_description": "",
+    "hash": "LIS$WDxZx[RRo}t6V[R+uhoyixbb"
+  },
+  {
+    "id": 14,
+    "title": "Dark Mode con Animaciones en CSS y JavaScript",
+    "description": "Creación de un Toggle Button para cambiar de Light Mode a Dark Mode usando animaciones de CSS y JavaScript",
+    "technologies": "CSS & JavaScript",
+    "date": "2022",
+    "post_url": "https://platzi.com/blog/dark-mode-css-javascript/",
+    "image_url": "https://i.ibb.co/x7T1StG/animated.gif",
+    "alt_description": "",
+    "hash": "LoP%L%j[_Nj[t7fQWBfQ-;azIAj@"
+  },
+  {
+    "id": 13,
+    "title": "Animaciones con CSS y JavaScript: crea un componente de feedback",
+    "description": "Calificación de una página de regalos de navidad con animaciones de CSS y JavaScript",
+    "technologies": "CSS & JavaScript",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/animaciones-css-javascript/",
+    "image_url": "https://i.ibb.co/Wzx7yzN/uGift.gif",
+    "alt_description": "",
+    "hash": "LqR.x^j[.mofayayofjt%#j[Mdf6"
+  },
+  {
+    "id": 12,
+    "title": "Rediseño de Instagram con Neomorfismo: consume su API para darle animaciones con CSS y JavaScript",
+    "description": "Maquetación del rediseño de Instagram y consumo de su API para mostrar información real",
+    "technologies": "CSS & JavaScript",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/rediseno-instagram-api-animaciones/",
+    "image_url": "https://i.ibb.co/P1v6NQz/Screen-Shot-2021-12-10-at-10-41-47-PM.png",
+    "alt_description": "",
+    "hash": "LLQ9_}kC_4so-=jZITX8t7j]Rjae"
+  },
+  {
+    "id": 11,
+    "title": "Crea el Menú de un Restaurante Coreano con CSS Subgrid",
+    "description": "Creación del menú de un restaurante coreano con CSS Subgrid",
+    "technologies": "CSS: CSS Subgrid",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/css-subgrid/",
+    "image_url": "https://i.ibb.co/jZ0GT5p/Screen-Shot-2021-09-06-at-11-33-10-AM.png",
+    "alt_description": "",
+    "hash": "L4S?DNxu{sxu?0j[X3ay{?j[oYay"
+  },
+  {
+    "id": 10,
+    "title": "CSS Grid Cheat Sheet: Items (Parte 2)",
+    "description": "Cheat Sheet con las propiedades y conceptos de CSS Grid",
+    "technologies": "CSS: CSS Grid",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/css-grid-cheat-sheet-items/",
+    "image_url": "https://i.ibb.co/NjXNnCD/CSS-Grid-Cheat-Sheet-Properties-for-the-Parent-Grid-Container-1.png",
+    "alt_description": "",
+    "hash": "L7QJyGSwRQ-W}v$RM{SdR.bbn%oe"
+  },
+  {
+    "id": 9,
+    "title": "CSS Grid Cheat Sheet: Contenedores (Parte 1)",
+    "description": "Cheat Sheet con las propiedades y conceptos de CSS Grid",
+    "technologies": "CSS: CSS Grid",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/css-grid-cheat-sheet-contenedores/",
+    "image_url": "https://i.ibb.co/ThnJMf7/CSS-Grid-Cheat-Sheet-Properties-for-the-Parent-Grid-Container.png",
+    "alt_description": "",
+    "hash": "L1Qc#Vt7D*~C0e=gxYIVDR-p-pNF"
+  },
+  {
+    "id": 8,
+    "title": "Qué son las microinteracciones web: crea la animación de Like en Twitter",
+    "description": "Creación el Like de Twitter con HTML, CSS y JavaScript",
+    "technologies": "HTML, CSS & JavaScript",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/microinteracciones/",
+    "image_url": "https://i.ibb.co/SfLf6Mh/heart.gif",
+    "alt_description": "",
+    "hash": "L8Ss88t7~WxuxufQj[fQ~Woe0KR*"
+  },
+  {
+    "id": 7,
+    "title": "Principios de la animación interactiva: crea las animaciones de un reproductor de música",
+    "description": "Animación de un reproductor de música usando HTML, CSS y JavaScript",
+    "technologies": "HTML, CSS & JavaScript",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/animacion-interactiva/",
+    "image_url": "https://i.ibb.co/jMnH4Rk/3.gif",
+    "alt_description": "",
+    "hash": "LiErCgj[PXfkIofQxua|pKfQVXfQ"
+  },
+  {
+    "id": 6,
+    "title": "Muñecas Rusas con Animaciones en CSS",
+    "description": "Maquetación de muñecas rusas con animaciones CSS.",
+    "technologies": "HTML & Animaciones CSS",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/muneca-rusa-animaciones-css/",
+    "image_url": "https://i.ibb.co/PQ3BtZG/1.gif",
+    "alt_description": "",
+    "hash": "L6R-0i1G9[s:%2j[j[fQ}t}t=yoL"
+  },
+  {
+    "id": 5,
+    "title": "Crea un comic responsive con CSS Grid",
+    "description": "Maqueta con CSS un comic responsive.",
+    "technologies": "CSS: CSS Grid",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/crea-un-comic-responsive-con-css-grid/",
+    "image_url": "https://media.giphy.com/media/Dd1MMRaqRk6bVn8Dzj/giphy.gif",
+    "alt_description": "",
+    "hash": "L7Nm.*%MIU~q~qWBD%IU-;WBRj?b"
+  },
+  {
+    "id": 4,
+    "title": "Guía de BEM para CSS | Cohete Falcon 9 de SpaceX",
+    "description": "Explicación completa con ejemplos de cómo usar BEM.",
+    "technologies": "CSS: Selectores",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/bem/",
+    "image_url": "https://i.ibb.co/PDGcrSc/1.png",
+    "alt_description": "",
+    "hash": "L3SY{s^+?@?vV#-:XNX9??.7DjMx"
+  },
+  {
+    "id": 3,
+    "title": "Crea el Periódico de los Simpsons con CSS",
+    "description": "Crea el clon de un periódico de Los Simpsons",
+    "technologies": "CSS: Flexbox",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/periodico-simpsons-css/",
+    "image_url": "https://i.ibb.co/ZWqbSCF/Screen-Shot-2021-04-09-at-3-08-15-PM.png",
+    "alt_description": "",
+    "hash": "L5J]@~%f4C9F?bRjIU%M4MM{_m-;"
+  },
+  {
+    "id": 2,
+    "title": "Crea tu planeador semanal con CSS Grid, Flexbox y Glassmorphism",
+    "description": "Maqueta un planeador semanal con CSS Grid, Flexbox y Glassmorphism",
+    "technologies": "CSS: CSS Grid & Flexbox",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/css-grid-glassmorphism/",
+    "image_url": "https://static.platzi.com/media/user_upload/Screen%20Shot%202021-03-10%20at%201.48.53%20AM-82d30674-a4ff-4617-bcd3-b1ac62fcfcd9.jpg",
+    "alt_description": "",
+    "hash": "LLI?8L*LIpv}LyN3kCbJNGaft2X9"
+  },
+  {
+    "id": 1,
+    "title": "Dibuja tu tablita de Sushi con CSS Grid",
+    "description": "Utiliza CSS Grid para dibujar una tabla de sushi.",
+    "technologies": "CSS",
+    "date": "2021",
+    "post_url": "https://platzi.com/blog/reto-dibujo-css/",
+    "image_url": "https://static.platzi.com/media/user_upload/5d%20%281%29-d9f19059-d9d1-488c-a0cb-480eb0444cf4.jpg",
+    "alt_description": "Sushi illustration",
+    "hash": "LgQ,OLa}~nt6ofWCt6oe%1j[M}j@"
+  }
+]

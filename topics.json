@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "UX · Case Studies",
+    "topic_url": "/ux",
+    "image_url": "https://i.ibb.co/BZ264B6/case-studies.jpg",
+    "alt_description": "UX · Case Studies",
+    "hash": "LFSPX}?a_24oxuWBWBt7~pIUD%?b"
+  },
+  {
+    "id": 2,
+    "title": "Blog · Tutorials",
+    "topic_url": "/blog",
+    "image_url": "https://i.ibb.co/zNqsm3Z/tutorials.jpg",
+    "alt_description": "Blog · Tutorials",
+    "hash": "L7S$iitR?[tlyDkCr=aK.kenVZbI"
+  },
+  {
+    "id": 3,
+    "title": "Courses",
+    "topic_url": "/courses",
+    "image_url": "https://i.ibb.co/fn3JYdk/courses.jpg",
+    "alt_description": "Courses",
+    "hash": "LPRV|X4n?Z_MIUIVof%M~q-;IVD$"
+  },
+  {
+    "id": 4,
+    "title": "Quizzes",
+    "topic_url": "/quizzes",
+    "image_url": "https://i.ibb.co/gtPR9Y1/quizzes.jpg",
+    "alt_description": "Quizzes",
+    "hash": "LIR:KTM{~o?bIot2%Loh_1ogD*Mx"
+  },
+  {
+    "id": 5,
+    "title": "About",
+    "topic_url": "/about",
+    "image_url": "https://i.ibb.co/Pr7q2tK/about-me.jpg",
+    "alt_description": "About",
+    "hash": "L3T9L$xv~m%M-=azWCoe~moeD,WC"
+  }
+]

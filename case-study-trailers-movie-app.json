@@ -1,0 +1,246 @@
+[
+  {
+    "id": 1,
+    "main_title": "Trailer's Movie App",
+    "overview": {
+      "title": "Project overview",
+      "main": {
+        "content": [
+          {
+            "title": "The product:",
+            "description": "The Trailer Movie App allows users to discover available movies near their location, providing access to movie trailers with closed captions and the ability to reserve and purchase tickets.",
+            "icon_name": "TP",
+            "position": "horizontal",
+            "color": "blue"
+          },
+          {
+            "title": "Project duration:",
+            "description": "December 2022 to May 2023.",
+            "icon_name": "PD",
+            "position": "horizontal",
+            "color": "blue"
+          }
+        ],
+        "image_url": "https://i.ibb.co/jrKNBhq/main.png",
+        "image_alt": ""
+      },
+      "general": [
+        {
+          "title": "The problem:",
+          "description": "Foreign and new individuals in the city are not proficient in the local language and struggle to understand or preview the content of movies before purchasing tickets.",
+          "icon_name": "TP",
+          "position": "vertical",
+          "color": "blue"
+        },
+        {
+          "title": "The goal:",
+          "description": "Develop a multilingual movie preview app that provides plot summaries, trailers, and subtitles in various languages, enabling foreign individuals to make informed decisions before purchasing movie tickets.",
+          "icon_name": "TG",
+          "position": "vertical",
+          "color": "blue"
+        },
+        {
+          "title": "My role:",
+          "description": "My role was that of a UX Designer responsible for designing the user interface for displaying nearby theaters, movie details, date selection, seat selection, and payment.",
+          "icon_name": "MR",
+          "position": "vertical",
+          "color": "blue"
+        },
+        {
+          "title": "Responsibilities:",
+          "description": "Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.",
+          "icon_name": "R",
+          "position": "vertical",
+          "color": "blue"
+        }
+      ]
+    },
+    "empathizing": {
+      "title": "Understanding the user",
+      "items": ["User research", "Personas", "Problem statements", "User journey maps"],
+      "user_research_summary": {
+        "title": "User research: summary",
+        "description": "I conducted interviews and created empathy maps to understand the needs of the primary user group: participants between the ages of 20-30 residing in metropolitan areas who visit movie theaters at least once a month. These users confirmed initial assumptions about the challenges faced by foreign users when it comes to understanding movies before purchasing tickets. Research revealed that language barriers and unfamiliarity with local cinema offerings were common issues. As a UX Designer, I focused on designing a user-friendly interface that provided multilingual movie trailers, plot summaries, and information on nearby theaters. The goal was to enable these users to make informed decisions about movie selections, overcoming language obstacles and ensuring a better movie-going experience.",
+        "icon_name": "S"
+      },
+      "user_research_pain_points": {
+        "title": "User research: pain points",
+        "pain_points": [
+          {
+            "title": "Language barriers",
+            "description": "Foreign users may struggle to understand the local language and therefore face challenges in comprehending movie descriptions.",
+            "icon_name": "1",
+            "color": "blue"
+          },
+          {
+            "title": "Lack of access to trailers",
+            "description": "Without an easy way to access movie trailers with subtitles or in their native language, users may feel limited when deciding which movie to watch.",
+            "icon_name": "2",
+            "color": "blue"
+          },
+          {
+            "title": "Unfamiliarity with local offerings",
+            "description": "Newcomers to the city may not be familiar with nearby theaters and the movies being screened, making it difficult to make informed decisions when purchasing tickets.",
+            "icon_name": "3",
+            "color": "blue"
+          },
+          {
+            "title": "Difficulty in reserving and purchasing tickets",
+            "description": "There may be obstacles in the ticket reservation and purchase process, such as navigation issues, lack of convenient payment options, or unclear information about seat availability.",
+            "icon_name": "4",
+            "color": "blue"
+          }
+        ]
+      },
+      "user_persona": {
+        "title": "Persona: Joseph",
+        "persona": {
+          "title": "Problem statement:",
+          "description": "Joseph, a recent immigrant passionate about films and exploring his neighborhood, seeks accessible options to learn English, communicate, and socialize.",
+          "image_url": "https://i.ibb.co/KXdRv40/user-persona-joseph.png",
+          "alt_description": ""
+        }
+      },
+      "user_journey": {
+        "title": "User journey map",
+        "description": "Joseph, a recent immigrant passionate about films and exploring his neighborhood, seeks accessible options to learn English, communicate, and socialize.",
+        "image_url": "https://i.ibb.co/drLYwTT/user-journey-map-joseph.png",
+        "alt_description": ""
+      }
+    },
+    "designing": {
+      "title": "Starting the design",
+      "items": ["Paper wireframes", "Digital wireframes", "Low-fidelity prototype", "Usability studies"],
+      "paper_wireframes": {
+        "title": "Paper wireframes",
+        "description": "The goal of creating an initial sketch is to materialize primary ideas and gain a preliminary understanding of the requirements.",
+        "image_url": "https://i.ibb.co/cJMLY9v/paper-wireframe.jpg"
+      },
+      "digital_wireframes": [
+        {
+          "title": "Digital wireframes",
+          "description": "The goal of this initial screen is to display the nearby theaters with the number of movies available to watch.",
+          "image_url": "https://i.ibb.co/jyQg7j7/digital-wireframe-1.jpg"
+        },
+        {
+          "title": "Digital wireframes",
+          "description": "The goal of this view is to display the number of available movies for the user to choose from.",
+          "image_url": "https://i.ibb.co/37R3wRY/digital-wireframe-2.jpg"
+        }
+      ],
+      "low_fidelity_prototype": {
+        "title": "Low-fidelity prototype",
+        "image_url": "https://i.ibb.co/JkFxJQ2/lofi-prototype.png",
+        "link": {
+          "title": "Link to low fidelity prototype in Figma",
+          "url": "https://www.figma.com/proto/NmbiUNrIsOHZxIkvbyISyt/Wireframe?type=design&node-id=102-79&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A6"
+        }
+      },
+      "usability_study_findings": {
+        "title": "Usability study: findings",
+        "description": "I conducted two rounds of usability studies. Findings from the first study helped guide the designs from wireframes to mockups. The second study used a high-fidelity prototype and revealed what aspects of the mockups needed refining.",
+        "findings": [
+          {
+            "title": "Round 1 findings",
+            "items": [
+              "For most users, it's not clear how to choose a seat",
+              "For most users, it's not clear how to select more than one filter at the same time"
+            ]
+          },
+          {
+            "title": "Round 2 findings",
+            "items": [
+              "For most users, it's not clear the information about movies",
+              "For many users, the process of choosing dates and selecting seats can be complicated and confusing"
+            ]
+          }
+        ]
+      }
+    },
+    "redesigning": {
+      "title": "Refining the design",
+      "items": ["Mockups", "High-fidelity prototype", "Accessibility"],
+      "mockups": [
+        {
+          "title": "Mockups",
+          "description": "In the initial designs, a screen was created for the description of the selected movie, but it was not clear. Therefore, I added less information and reorganized it for better categorization.",
+          "image_url": "https://i.ibb.co/XbZDvyX/mockup-1.jpg"
+        },
+        {
+          "title": "Mockups",
+          "description": "In the initial designs, the selection of dates and seats was not clear, so the information was better grouped and color-coded conventions were added for enhanced clarity.",
+          "image_url": "https://i.ibb.co/fMkCjHh/mockup-2.jpg"
+        }
+      ],
+      "key_mockups": {
+        "title": "Key mockups",
+        "images_url": [
+          "https://i.ibb.co/jW1D1H1/hifi-prototype-1.png",
+          "https://i.ibb.co/ZMjgccW/hifi-prototype-2.png"
+        ]
+      },
+      "high_fidelity_prototype": {
+        "title": "High-fidelity prototype",
+        "image_url": "https://i.ibb.co/d2p48MM/hifi-prototype.png",
+        "link": {
+          "title": "Link to high fidelity prototype in Figma",
+          "url": "https://www.figma.com/proto/KKiopXThrmfivtzSACUyl1/Mockup?type=design&node-id=102-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=102%3A2"
+        }
+      },
+      "accessibility_considerations": {
+        "title": "Accessibility considerations",
+        "considerations": [
+          {
+            "description": "The Closed Caption button allows users to view movie content in their preferred language.",
+            "icon_name": "1"
+          },
+          {
+            "description": "Icons are used to enhance navigation and make it easier for users to navigate the app.",
+            "icon_name": "2"
+          },
+          {
+            "description": "Contrast in different texts improves the readability of the text.",
+            "icon_name": "3"
+          }
+        ]
+      }
+    },
+    "going_forward": {
+      "title": "Going forward",
+      "items": ["Takeaways", "Next steps"],
+      "takeaways": {
+        "title": "Takeaways",
+        "items": [
+          {
+            "title": "Impact:",
+            "description": "The app makes users feel like the Movie Trailer App really understands their needs. One quote from user feedback: 'The app made it so convenient and enjoyable to discover and watch movie trailers. I would definitely use this app as my go-to for finding movies to watch. It's a great way to have a fun and immersive movie experience.'",
+            "icon_name": "I",
+            "position": "vertical"
+          },
+          {
+            "title": "What I learned:",
+            "description": "While designing the Movie Trailer App, I discovered that the initial concepts are just the starting point. Usability studies and feedback from peers influenced every iteration of the app's design, ensuring it meets user needs and expectations.",
+            "icon_name": "W",
+            "position": "vertical"
+          }
+        ]
+      },
+      "next_steps": {
+        "title": "Next steps",
+        "items": [
+          {
+            "description": "Conduct another round of usability studies to validate whether the pain points users experienced have been effectively addressed.",
+            "icon_name": "1"
+          },
+          {
+            "description": "Conduct more user research to determine any new areas of need.",
+            "icon_name": "2"
+          }
+        ]
+      },
+      "lets_connect": {
+        "title": "Let's connect!"
+      }
+    }
+  }
+]

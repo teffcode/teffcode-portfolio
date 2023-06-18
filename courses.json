@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Curso de Creación de Páginas Web con ChatGPT",
+    "course_url": "https://platzi.com/cursos/web-chatgpt/",
+    "image_url": "https://i.ibb.co/Ycq9wG8/1.png",
+    "alt_description": "",
+    "hash": "LJJ5sJayMzsphgspK0a{_Nf6O9j["
+  },
+  {
+    "id": 2,
+    "title": "Prueba Técnica: E-commerce Profesional con React.js",
+    "course_url": "https://platzi.com/cursos/laboratorio-react/",
+    "image_url": "https://i.ibb.co/CJC46Jg/2.png",
+    "alt_description": "",
+    "hash": "LIBzt@pfnerB4}RjMwoh-=xU%gNM"
+  },
+  {
+    "id": 3,
+    "title": "Curso de React.js con Vite.js y TailwindCSS",
+    "course_url": "https://platzi.com/cursos/react-vite-tailwindcss/",
+    "image_url": "https://i.ibb.co/3CLpv45/3.png",
+    "alt_description": "",
+    "hash": "LPDcwmr@NfOv5HR;Ris;_4bJs+ng"
+  },
+  {
+    "id": 4,
+    "title": "Curso de Storybook: Sistemas de Diseño con JavaScript",
+    "course_url": "https://platzi.com/cursos/storybook/",
+    "image_url": "https://i.ibb.co/GFzCdxY/4.png",
+    "alt_description": "",
+    "hash": "LEJ=~M|60{7VD4x[o|a1%gNZ%2v-"
+  },
+  {
+    "id": 5,
+    "title": "Curso Práctico de Sistemas de Diseño con Figma",
+    "course_url": "https://platzi.com/cursos/figma-sistemas-diseno/",
+    "image_url": "https://i.ibb.co/nP0L077/5.png",
+    "alt_description": "",
+    "hash": "LlL3+R?^NaIU-Cx]ofn%IA9FR%s;"
+  },
+  {
+    "id": 6,
+    "title": "Curso Gratis de Programación Básica",
+    "course_url": "https://platzi.com/cursos/programacion-basica/",
+    "image_url": "https://i.ibb.co/LCj7Zc1/6.png",
+    "alt_description": "",
+    "hash": "LVQ*rXt6?D?G~9R+ofIpJQoLIpj?"
+  },
+  {
+    "id": 7,
+    "title": "Curso para Conseguir Trabajo como Frontend Developer",
+    "course_url": "https://platzi.com/cursos/conseguir-trabajo-frontend/",
+    "image_url": "https://i.ibb.co/93Pthwj/7.png",
+    "alt_description": "",
+    "hash": "LNKn0fM[NJ9F~WxUM{og9bIUoatQ"
+  },
+  {
+    "id": 8,
+    "title": "Curso Práctico de Frontend Developer",
+    "course_url": "https://platzi.com/cursos/frontend-developer-practico/",
+    "image_url": "https://i.ibb.co/ykBzzYC/8.png",
+    "alt_description": "",
+    "hash": "LYL|C=Z$sAD,-,E7Rj%0~8xVM~X8"
+  },
+  {
+    "id": 9,
+    "title": "Curso de Frontend Developer",
+    "course_url": "https://platzi.com/cursos/frontend-developer/",
+    "image_url": "https://i.ibb.co/XtnHgy4/9.png",
+    "alt_description": "",
+    "hash": "LdOf=4%%D*Ne?tkFs:skDNIoRnIo"
+  },
+  {
+    "id": 10,
+    "title": "Curso Práctico de Maquetación y Animaciones con CSS",
+    "course_url": "https://platzi.com/cursos/animaciones-css-practico/",
+    "image_url": "https://i.ibb.co/fF7HfHV/10.png",
+    "alt_description": "",
+    "hash": "LABquMY70fxa0xbF}[M_oLRPs8S5"
+  },
+  {
+    "id": 11,
+    "title": "Curso de Animaciones con CSS",
+    "course_url": "https://platzi.com/cursos/animaciones-css/",
+    "image_url": "https://i.ibb.co/KVgX9gw/11.png",
+    "alt_description": "",
+    "hash": "L6Bqh=0$jc=y0J}tjDFxGwKP%LIA"
+  },
+  {
+    "id": 12,
+    "title": "Curso de Transformaciones y Transiciones en CSS",
+    "course_url": "https://platzi.com/cursos/transformaciones-transiciones-css/",
+    "image_url": "https://i.ibb.co/Wgj4Rpx/12.png",
+    "alt_description": "",
+    "hash": "L7CG=T0[=xb-0y}uM_TIGXJ}X9Z$"
+  },
+  {
+    "id": 13,
+    "title": "Curso de Diseño Web con CSS Grid y Flexbox",
+    "course_url": "https://platzi.com/cursos/flexbox-css-grid/",
+    "image_url": "https://i.ibb.co/sJBqKKd/13.png",
+    "alt_description": "",
+    "hash": "LHEBUm#_o2ImwhxbM{tQ9*I,fks;"
+  },
+  {
+    "id": 14,
+    "title": "Curso Profesional de CSS Grid Layout",
+    "course_url": "https://platzi.com/cursos/css-grid-layout/",
+    "image_url": "https://i.ibb.co/9yKxPvb/14.png",
+    "alt_description": "",
+    "hash": "LPIE@m00E0~p%dI:xsRk01?bxuIU"
+  }
+]
