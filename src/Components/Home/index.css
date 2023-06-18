@@ -8,9 +8,6 @@
   color: var(--black);
   text-align: center;
   margin: 0;
-  @media (max-width: 780px) {
-    font-size: 24px;
-  }
 }
 
 .home__description {
@@ -25,9 +22,6 @@
   max-width: 1024px;
   width: 100%;
   margin-top: 32px;
-  @media (max-width: 780px) {
-    margin-top: 24px;
-  }
 }
 
 .topic__container {
@@ -81,4 +75,13 @@
 @keyframes visible {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+@media (max-width: 780px) {
+  .home__title {
+    font-size: 24px;
+  }
+  .topics {
+    margin-top: 24px;
+  }
 }

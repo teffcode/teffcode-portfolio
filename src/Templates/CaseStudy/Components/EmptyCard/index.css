@@ -18,10 +18,6 @@
   place-items: center;
   width: 50px;
   height: 50px;
-  @media (max-width: 780px) {
-    width: 40px;
-    height: 40px;
-  }
 }
 
 .empty-card__indicator--blue {
@@ -39,9 +35,6 @@
 .empty-card__title {
   font-size: 18px;
   margin: 8px 0 0;
-  @media (max-width: 780px) {
-    font-size: 16px;
-  }
 }
 
 .empty-card__title--blue {
@@ -55,7 +48,19 @@
 .empty-card__description {
   margin: 8px 0 0;
   font-weight: 100;
-  @media (max-width: 780px) {
+}
+
+@media (max-width: 780px) {
+  .empty-card__indicator {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .empty-card__title {
+    font-size: 16px;
+  }
+
+  .empty-card__description {
     font-size: 14px;
   }
 }

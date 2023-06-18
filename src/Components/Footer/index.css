@@ -40,10 +40,6 @@
   height: 32px;
   display: grid;
   place-items: center;
-  @media (max-width: 780px) {
-    width: 24px;
-    height: 24px;
-  }
 }
 
 .social-media__link:hover {
@@ -52,4 +48,11 @@
 
 .social-media__icon {
   width: 24px;
+}
+
+@media (max-width: 780px) {
+  .social-media__link {
+    width: 24px;
+    height: 24px;
+  }
 }

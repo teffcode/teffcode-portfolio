@@ -4,10 +4,6 @@
   width: 100%;
   max-width: 1024px;
   padding: 32px 0;
-  @media (max-width: 780px) {
-    justify-content: center;
-    font-size: 14px;
-  }
 }
 
 .presentation__container {
@@ -56,4 +52,11 @@
   cursor: pointer;
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
+}
+
+@media (max-width: 780px) {
+  .navbar {
+    justify-content: center;
+    font-size: 14px;
+  }
 }
