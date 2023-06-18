@@ -108,9 +108,11 @@
     gap: 24px;
     grid-template-columns: 1fr;
   }
+
   .overview__main-section--left {
     gap: 24px;
   }
+
   .overview__general-section,
   .designing__findings-section,
   .going-forward__takeaways-section,
@@ -122,13 +124,16 @@
     gap: 24px;
     grid-template-columns: 1fr;
   }
+
   .empathizing__pain-points-section {
     grid-template-columns: 1fr;
   }
+
   .designing__description,
   .going-forward__description { 
     font-size: 14px;
   }
+
   .redesing__a11y-section {
     grid-template-columns: 1fr;
   }
@@ -139,6 +144,7 @@
     gap: 24px;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .empathizing__pain-points-section {
     gap: 24px;
     grid-template-columns: repeat(2, 1fr);

@@ -8,9 +8,6 @@
   color: var(--black);
   text-align: center;
   margin: 0;
-  @media (max-width: 780px) {
-    font-size: 24px;
-  }
 }
 
 .about__description {
@@ -25,4 +22,10 @@
 .about__mailto {
   color: var(--blue);
   text-underline-offset: 2px;
+}
+
+@media (max-width: 780px) {
+  .about__title {
+    font-size: 24px;
+  }
 }

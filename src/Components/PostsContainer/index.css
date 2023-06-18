@@ -120,12 +120,15 @@
   .posts__title {
     font-size: 24px;
   }
+
   .posts__subtitle {
     width: 100%;
   }
+
   .posts__container {
     margin-top: 24px;
   }
+
   .post__container {
     height: 260px;
   }
