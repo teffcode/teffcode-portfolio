@@ -17,19 +17,12 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
   align-items: center;
-  @media (max-width: 780px) {
-    gap: 24px;
-    grid-template-columns: 1fr;
-  }
 }
 
 .overview__main-section--left {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  @media (max-width: 780px) {
-    gap: 24px;
-  }
 }
 
 .overview__general-section,
@@ -39,23 +32,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
-  @media (max-width: 780px) {
-    gap: 24px;
-    grid-template-columns: 1fr;
-  }
 }
 
 .empathizing__pain-points-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
-  @media (max-width: 1024px) {
-    gap: 24px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
 }
 
 .empathizing__persona-section,
@@ -66,10 +48,6 @@
   grid-template-columns: 1fr 2fr;
   gap: 32px;
   align-items: center;
-  @media (max-width: 768px) {
-    gap: 24px;
-    grid-template-columns: 1fr;
-  }
 }
 
 .designing__low-fi-section,
@@ -91,22 +69,12 @@
 .going-forward__description {
   margin: 0;
   font-weight: 100;
-  @media (max-width: 780px) {
-    font-size: 14px;
-  }
 }
 
 .redesing__a11y-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  @media (max-width: 1024px) {
-    gap: 24px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
 }
 
 .going-forward__mailto {
@@ -133,4 +101,46 @@
 .back-to__footer {
   text-align: center;
   margin: 32px 0 0;
+}
+
+@media (max-width: 780px) {
+  .overview__main-section {
+    gap: 24px;
+    grid-template-columns: 1fr;
+  }
+  .overview__main-section--left {
+    gap: 24px;
+  }
+  .overview__general-section,
+  .designing__findings-section,
+  .going-forward__takeaways-section,
+  .going-forward__next-steps-section,
+  .empathizing__persona-section,
+  .empathizing__journey-section,
+  .designing__wireframes-section,
+  .redesigning__mockups-section {
+    gap: 24px;
+    grid-template-columns: 1fr;
+  }
+  .empathizing__pain-points-section {
+    grid-template-columns: 1fr;
+  }
+  .designing__description,
+  .going-forward__description { 
+    font-size: 14px;
+  }
+  .redesing__a11y-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1024px) {
+  .redesing__a11y-section {
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .empathizing__pain-points-section {
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
