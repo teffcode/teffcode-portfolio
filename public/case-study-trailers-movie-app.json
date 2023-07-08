@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "main_title": "Trailer's Movie App",
+    "main_title": "Trailer's Movie App Design",
     "overview": {
       "title": "Project overview",
       "main": {
         "content": [
           {
             "title": "The product:",
-            "description": "The Trailer Movie App allows users to discover available movies near their location, providing access to movie trailers with closed captions and the ability to reserve and purchase tickets.",
+            "description": "Trailer's Movie allows users to discover available movies near their location, providing access to movie trailers with closed captions and the ability to reserve and purchase tickets.",
             "icon_name": "TP",
             "position": "horizontal",
             "color": "blue"

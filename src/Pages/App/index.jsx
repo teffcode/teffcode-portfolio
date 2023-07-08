@@ -3,6 +3,7 @@ import { SiteProvider } from '../../Context'
 import Header from '../../Components/Header'
 import UxContainer from '../../Components/UxContainer'
 import CaseStudyTrailersMovieApp from '../CaseStudyTrailersMovieApp'
+import CaseStudyNetworkingApp from '../CaseStudyNetworkingApp'
 import Home from '../../Components/Home'
 import About from '../../Components/About'
 import Footer from '../../Components/Footer'
@@ -17,6 +18,7 @@ const AppRoutes = () => {
     { path: '/', element: <Home /> },
     { path: '/ux', element: <UxContainer/> },
     { path: '/ux/case-study-trailers-movie-app', element: <CaseStudyTrailersMovieApp/> },
+    { path: '/ux/case-study-networking-app', element: <CaseStudyNetworkingApp/> },
     { path: '/blog', element: <PostsContainer/> },
     { path: '/courses', element: <CoursesContainer/> },
     { path: '/quizzes', element: <QuizzesContainer/> },

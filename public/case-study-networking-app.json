@@ -1,0 +1,246 @@
+[
+  {
+    "id": 1,
+    "main_title": "Chef Circle App Design",
+    "overview": {
+      "title": "Project overview",
+      "main": {
+        "content": [
+          {
+            "title": "The product:",
+            "description": "Chef Circle allows chefs to create personalized profiles, showcase culinary expertise, connect with industry peers, and explore exciting culinary opportunities.",
+            "icon_name": "TP",
+            "position": "horizontal",
+            "color": "blue"
+          },
+          {
+            "title": "Project duration:",
+            "description": "June 2023 to July 2023.",
+            "icon_name": "PD",
+            "position": "horizontal",
+            "color": "blue"
+          }
+        ],
+        "image_url": "https://i.ibb.co/YXWWfxK/main.png",
+        "image_alt": ""
+      },
+      "general": [
+        {
+          "title": "The problem:",
+          "description": "Chefs face challenges in connecting with industry peers, showcasing their culinary expertise, and exploring culinary opportunities due to a lack of a dedicated platform.",
+          "icon_name": "TP",
+          "position": "vertical",
+          "color": "blue"
+        },
+        {
+          "title": "The goal:",
+          "description": "Build a comprehensive networking app for chefs that facilitates personalized profiles, showcases culinary expertise, fosters industry connections, and enables exploration of diverse culinary opportunities.",
+          "icon_name": "TG",
+          "position": "vertical",
+          "color": "blue"
+        },
+        {
+          "title": "My role:",
+          "description": "As a UX Designer, I was responsible for designing an intuitive user interface for seamless profile creation.",
+          "icon_name": "MR",
+          "position": "vertical",
+          "color": "blue"
+        },
+        {
+          "title": "Responsibilities:",
+          "description": "Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.",
+          "icon_name": "R",
+          "position": "vertical",
+          "color": "blue"
+        }
+      ]
+    },
+    "empathizing": {
+      "title": "Understanding the user",
+      "items": ["User research", "Personas", "Problem statements", "User journey maps"],
+      "user_research_summary": {
+        "title": "User research: summary",
+        "description": "Based on user research, aspiring chefs aged 25-40 expressed a strong desire for a networking app that provides personalized profiles, showcases culinary expertise, and facilitates connections within the industry. Language barriers and limited industry exposure were identified as significant challenges. As a UX Designer, my current focus is on developing the profile creation feature to address these needs. While the initial focus is on profile creation, future plans include expanding the app to encompass additional features that allow users to explore diverse culinary opportunities.",
+        "icon_name": "S"
+      },
+      "user_research_pain_points": {
+        "title": "User research: pain points",
+        "pain_points": [
+          {
+            "title": "Limited networking opportunities",
+            "description": "Aspiring chefs may struggle to connect with industry peers, hindering their ability to expand their professional network and explore new culinary opportunities.",
+            "icon_name": "1",
+            "color": "blue"
+          },
+          {
+            "title": "Difficulty in showcasing culinary expertise",
+            "description": "Chefs may find it challenging to effectively showcase their culinary skills, experiences, and specialties, limiting their visibility and potential collaborations.",
+            "icon_name": "2",
+            "color": "blue"
+          },
+          {
+            "title": "Lack of access to relevant culinary information",
+            "description": "Users may face difficulties in finding comprehensive and up-to-date information about culinary events, job openings, and educational resources, impeding their ability to explore exciting culinary opportunities.",
+            "icon_name": "3",
+            "color": "blue"
+          },
+          {
+            "title": "Inadequate platform for personalized profiles",
+            "description": "Existing platforms may not offer sufficient customization options for creating personalized chef profiles, making it difficult for chefs to stand out and present their unique culinary identities.",
+            "icon_name": "4",
+            "color": "blue"
+          }
+        ]
+      },
+      "user_persona": {
+        "title": "Persona: Emily",
+        "persona": {
+          "title": "Problem statement:",
+          "description": "Emily, an ambitious chef in London, seeks to expand her network, showcase her expertise, and stay current in culinary trends. She values mentorship and collaboration, seeking a networking app for chefs to connect, collaborate, and showcase their skills.",
+          "image_url": "https://i.ibb.co/9bDjFBS/user-persoma-emily.png",
+          "alt_description": ""
+        }
+      },
+      "user_journey": {
+        "title": "User journey map",
+        "description": "Emily, an ambitious chef in London, seeks to expand her network, showcase her expertise, and stay current in culinary trends. She values mentorship and collaboration, seeking a networking app for chefs to connect, collaborate, and showcase their skills.",
+        "image_url": "https://i.ibb.co/gyZBCFd/user-journey-map-emily.png",
+        "alt_description": ""
+      }
+    },
+    "designing": {
+      "title": "Starting the design",
+      "items": ["Paper wireframes", "Digital wireframes", "Low-fidelity prototype", "Usability studies"],
+      "paper_wireframes": {
+        "title": "Paper wireframes",
+        "description": "The goal of creating an initial sketch is to materialize primary ideas and gain a preliminary understanding of the requirements.",
+        "image_url": "https://i.ibb.co/YyKdvhL/wireframes.png"
+      },
+      "digital_wireframes": [
+        {
+          "title": "Digital wireframes",
+          "description": "The goal of the homepage with login and create account is to provide a seamless entry point, communicate value, instill trust, and prompt users to either log in or create an account to access personalized content and unlock platform features.",
+          "image_url": "https://i.ibb.co/Tw6NX8z/digital-wireframe-1.png"
+        },
+        {
+          "title": "Digital wireframes",
+          "description": "The goal of the page is to guide chefs through a two-step process. Step 1 collects the chef's biography, photo, age, and language. Step 2 focuses on capturing their skills, interests, and culinary specialties. The goal is to create a comprehensive profile that showcases the chef's background and unique culinary talents, providing a platform to connect, collaborate, and explore culinary opportunities.",
+          "image_url": "https://i.ibb.co/4W6YTWW/digital-wireframe-2.png"
+        }
+      ],
+      "low_fidelity_prototype": {
+        "title": "Low-fidelity prototype",
+        "image_url": "https://i.ibb.co/T2FhV4w/lofi-prototype.png",
+        "link": {
+          "title": "Link to low fidelity prototype in Figma",
+          "url": "https://www.figma.com/file/l0B3qH9zJOSD5QymemIs7K/Wireframe?type=design&node-id=0%3A1&mode=design&t=MLBRczSm3eu7NwvR-1"
+        }
+      },
+      "usability_study_findings": {
+        "title": "Usability study: findings",
+        "description": "I conducted two rounds of usability studies to enhance the app's user experience. Findings from the first study informed the design process, progressing from wireframes to mockups. The second study employed a high-fidelity prototype and identified areas in the mockups that required refinement.",
+        "findings": [
+          {
+            "title": "Round 1 findings",
+            "items": [
+              "Users found the fields and app name ambiguous.",
+              "Users desired an easy option to create an account."
+            ]
+          },
+          {
+            "title": "Round 2 findings",
+            "items": [
+              "Users wanted descriptions for the fields to fill.",
+              "Users preferred not to provide their age.",
+              "Steps appeared lengthy and challenging to complete."
+            ]
+          }
+        ]
+      }
+    },
+    "redesigning": {
+      "title": "Refining the design",
+      "items": ["Mockups", "High-fidelity prototype", "Accessibility"],
+      "mockups": [
+        {
+          "title": "Mockups",
+          "description": "The initial screen was designed with basic fields for logging in or an alternative option to create an account. In the new version, the fields were made clearer and more detailed, and the option to create an account with Google was added.",
+          "image_url": "https://i.ibb.co/N3MMNs2/mockup-1.png"
+        },
+        {
+          "title": "Mockups",
+          "description": "In the initial screen, two steps were created to complete the chefs' information. In the new version, six steps were introduced to provide more detailed information, resulting in a lighter and cleaner user experience.",
+          "image_url": "https://i.ibb.co/XSPTy07/mockup-2.png"
+        }
+      ],
+      "key_mockups": {
+        "title": "Key mockups",
+        "images_url": [
+          "https://i.ibb.co/FzWG3GQ/key-mockups.png"
+        ]
+      },
+      "high_fidelity_prototype": {
+        "title": "High-fidelity prototype",
+        "image_url": "https://i.ibb.co/DpcVf06/hifi-prototype.png",
+        "link": {
+          "title": "Link to high fidelity prototype in Figma",
+          "url": "https://www.figma.com/file/xgbvpBbZbkTUZOksIxGu1a/Chef-Circle-%C2%B7-Prototype?type=design&node-id=0%3A1&mode=design&t=Ds4O0KoQLSV4zUqO-1"
+        }
+      },
+      "accessibility_considerations": {
+        "title": "Accessibility considerations",
+        "considerations": [
+          {
+            "description": "Keyboard Accessibility: Ensure that all profile creation elements and actions can be accessed and interacted with using keyboard navigation alone, without the need for a mouse or touch screen.",
+            "icon_name": "1"
+          },
+          {
+            "description": "Screen Reader Compatibility: Design the profile creation flow in a way that is compatible with screen reader software, ensuring that all elements, labels, and instructions are properly announced and accessible to users with visual impairments.",
+            "icon_name": "2"
+          },
+          {
+            "description": "Color Contrast and Visual Clarity: Use color combinations with sufficient contrast to ensure readability for users with visual impairments. Additionally, ensure that text and graphical elements are large enough and have appropriate spacing for users with low vision to comfortably read and interact with the profile creation interface.",
+            "icon_name": "3"
+          }
+        ]
+      }
+    },
+    "going_forward": {
+      "title": "Going forward",
+      "items": ["Takeaways", "Next steps"],
+      "takeaways": {
+        "title": "Takeaways",
+        "items": [
+          {
+            "title": "Impact:",
+            "description": "The app creates a personalized experience for chefs, understanding their unique needs. One user feedback quote: 'This app makes it effortless to connect with other chefs, showcase skills, and explore culinary opportunities. It's my go-to platform for networking and elevating my culinary journey.'",
+            "icon_name": "I",
+            "position": "vertical"
+          },
+          {
+            "title": "What I learned:",
+            "description": "While designing the networking app for chefs, I realized that the initial concepts are just the beginning. Usability studies and feedback from chefs guided every iteration of the app's design, ensuring it meets their needs and exceeds their expectations.",
+            "icon_name": "W",
+            "position": "vertical"
+          }
+        ]
+      },
+      "next_steps": {
+        "title": "Next steps",
+        "items": [
+          {
+            "description": "Conduct another round of usability studies to validate whether the pain points users experienced have been effectively addressed.",
+            "icon_name": "1"
+          },
+          {
+            "description": "Conduct more user research to determine any new areas of need.",
+            "icon_name": "2"
+          }
+        ]
+      },
+      "lets_connect": {
+        "title": "Let's connect!"
+      }
+    }
+  }
+]

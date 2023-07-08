@@ -11,6 +11,16 @@
   },
   {
     "id": 2,
+    "title": "Chef Circle App · Case study",
+    "certificate": "Google UX Certificate",
+    "case_study_url": "/ux/case-study-networking-app",
+    "image_url": "https://i.ibb.co/YXWWfxK/main.png",
+    "alt_description": "",
+    "hash": "LHQvj]I9_N8_tR%h?vt7_NV@V?%g",
+    "target": "_self"
+  },
+  {
+    "id": 3,
     "title": "Again App · Case study",
     "certificate": "Acamica UX Certificate",
     "case_study_url": "https://www.behance.net/gallery/134750745/Again-UX-UI-Case-Study",
