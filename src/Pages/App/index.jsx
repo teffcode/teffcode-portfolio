@@ -1,4 +1,4 @@
-import { useRoutes, BrowserRouter } from 'react-router-dom'
+import { useRoutes, BrowserRouter, Outlet } from 'react-router-dom'
 import { SiteProvider } from '../../Context'
 import Header from '../../Components/Header'
 import UxContainer from '../../Components/UxContainer'
@@ -37,6 +37,7 @@ const App = () => {
           <Header />
           <AppRoutes />
           <Footer />
+          <Outlet />
         </div>
       </BrowserRouter>
     </SiteProvider>
